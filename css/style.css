@@ -15,7 +15,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fill 0.5s ease forwards 5s;
+  animation: fill 4s ease forwards 4.5s;
 }
 
 #logo path:nth-child(1) {
@@ -81,6 +81,9 @@ body {
 }
 
 @keyframes fill {
+  from {
+    fill: transparent;
+  }
   to {
     fill: white;
   }
