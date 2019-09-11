@@ -53,10 +53,10 @@ body {
   height: auto;
 }
 $colors: (
-  blue: #ffffff,
-  orange: #000000,
-  green: #ffffff,
-  white: #000000
+  1: #ffffff,
+  2: #000000,
+  3: #ffffff,
+  4: #000000
 );
 $i: 0.25s;
 @each $colorName, $color in $colors {
