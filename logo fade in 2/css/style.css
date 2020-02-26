@@ -7,15 +7,53 @@
 body {
   width: 100%;
   height: 100vh;
+  display: flex;
   background-color: #dfd7cd;
 }
+
+#left-side {
+  width: 50%;
+  /* background-color: teal; */
+  opacity: 0;
+  text-align: center;
+  animation: appear 6s ease forwards 8s;
+}
+
+#site-main {
+  width: 50%;
+  /* background-color: thistle; */
+  opacity: 0;
+  animation: appear 6s ease forwards 8s;
+}
+
+.nav-list {
+  font-family: "Cabin Sketch";
+  font-size: 50px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  /* background-color: tomato;
+  opacity: 0.5; */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #343434;
+}
+
+/* .nav-link::before:nth-child(2) {
+  content: "--";
+  left: 50%;
+} */
 
 #logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fill 4s ease forwards 6s;
+  animation: vanish 4s ease forwards 6s;
 }
 
 #logo path:nth-child(1) {
@@ -105,11 +143,20 @@ body {
   }
 }
 
-@keyframes fill {
+@keyframes vanish {
   from {
-    fill: transparent;
+    opacity: 1;
   }
   to {
-    fill: #dfd7cd;
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
