@@ -5,11 +5,30 @@ for (let i = 0; i < logo.length; i++) {
   console.log("letter " + i + " is " + logo[i].getTotalLength());
 }
 
+var paragraphe1 = document.getElementById("paragraphe1");
+var paragraphe2 = document.getElementById("paragraphe2");
+var paragraphe3 = document.getElementById("paragraphe3");
+var paragraphe4 = document.getElementById("paragraphe4");
+var paragraphe5 = document.getElementById("paragraphe5");
+var paragraphe6 = document.getElementById("paragraphe6");
+
+var subtitle1 = document.getElementById("subtitle1");
+var subtitle2 = document.getElementById("subtitle2");
+var subtitle3 = document.getElementById("subtitle3");
+var subtitle4 = document.getElementById("subtitle4");
+
+// function addSubtitle() {
+//   var subtitle = document.createElement("h2");
+//   var title = (subtitle.innerHTML = "GAMING");
+//   subtitle.appendChild(title);
+//   document.getElementById("paragraphe1").appendChild(subtitle);
+// }
+
 function aboutContent() {
   document.getElementById("section-title").innerHTML = "ABOUT";
   document.getElementById("subtitle1").innerHTML = "";
   document.getElementById("paragraphe1").innerHTML =
-    "Née le 28 juin 1976 à Avignon, dans la belle région de Provence situé au sud est de la France, j'ai suivi des études technique en élécrtonique avant de me lancer dans la vie activer et monter ma propre petite entreprise de restauration à St Rémy de Provence.";
+    "Née le 28 juin 1976 à Avignon, dans la belle région de Provence situé au sud est de la France, j'ai suivi des études technique en élécrtonique avant de me lancer dans la vie active et monter ma propre petite entreprise de restauration à St Rémy de Provence.";
   document.getElementById("subtitle2").innerHTML = "";
   document.getElementById("paragraphe2").innerHTML =
     "Cette belle aventure a durée presque 5 ans et m'a enseignée énormément de choses sur: <br>  -Le commerce <br> -La gestion d'entreprise <br> -La communication <br> Mais plus important, sur la vie! Très bonne école.";
@@ -60,15 +79,15 @@ function iLikeContent() {
 
 function contactContent() {
   document.getElementById("section-title").innerHTML = "CONTACT";
-  document.getElementById("subtitle1").innerHTML = "FACEBOOK";
-  document.getElementById("paragraphe1").innerHTML =
-    '<a href="https://www.facebook.com/emmanuel.durouge" target="_blank">Cliquez ici pour acceder à mon Facebook.</a>';
-  document.getElementById("subtitle2").innerHTML = "GMAIL";
-  document.getElementById("paragraphe2").innerHTML =
-    '<a href="mailto:emmanueldevfr@gmail.com">cliquez sur ce lien pour me contacter sur mon adresse gmail</a>';
-  document.getElementById("subtitle3").innerHTML = "YAHOOMAIL";
-  document.getElementById("paragraphe3").innerHTML =
-    '<a href="mailto:emmanueldurouge@yahoo.com">cliquez sur ce lien pour me contacter sur mon adresse yahoomail</a>';
+  document.getElementById("subtitle1").innerHTML =
+    'GMAIL<br><a href="mailto:emmanueldevfr@gmail.com"><img class="socialIcons" src="img/gmail.png"></a>';
+  document.getElementById("paragraphe1").innerHTML = "";
+  document.getElementById("subtitle2").innerHTML =
+    'YAHOO<br><a href="mailto:emmanueldurouge@yahoo.com"><img class="socialIcons" src="img/yahoo.png"></a>';
+  document.getElementById("paragraphe2").innerHTML = "";
+  document.getElementById("subtitle3").innerHTML =
+    'FACEBOOK<br><a href="https://www.facebook.com/emmanuel.durouge/" target="_blank"><img class="socialIcons" src="img/facebook.png"><br>Vous devez être connecté à FB pour voir mon profile.</a>';
+  document.getElementById("paragraphe3").innerHTML = "";
   document.getElementById("paragraphe4").innerHTML = "";
   document.getElementById("paragraphe5").innerHTML = "";
   document.getElementById("paragraphe6").innerHTML = "";

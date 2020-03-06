@@ -30,10 +30,15 @@ body {
   font-size: 4em;
 }
 
-img {
+#mainPhoto {
   height: 70%;
   width: 70%;
   border-radius: 50%;
+}
+
+.socialIcons {
+  height: 65%;
+  width: 30%;
 }
 
 #site-main {
@@ -102,10 +107,10 @@ img {
   margin-left: 15px;
 }
 
-#paragraphe5,
+/* #paragraphe5,
 #paragraphe6 {
   text-align: center;
-}
+} */
 
 .nav-list {
   font-family: "Cabin Sketch";
