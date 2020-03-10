@@ -1,4 +1,4 @@
-/* 
+/* Choix des fonts:
 font-family: 'Cabin Sketch', cursive;
 font-family: 'Eczar', serif;
 font-family: 'Brawler', serif; 
@@ -153,6 +153,7 @@ body {
 }
 
 #logo {
+  width: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -262,5 +263,89 @@ body {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* MEDIA QUERIES / RESPONSIVE WEB DESIGN */
+@media only screen and (min-device-width: 1251px) and (max-device-width: 1500px) {
+  body {
+    /* background-color: cadetblue; */
+  }
+  .nav-list {
+    font-size: 40px;
+  }
+
+  .paragraphes {
+    font-size: 1.25em;
+  }
+
+  #section-title {
+    margin: 0px;
+  }
+
+  #mainPhoto {
+    height: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1250px) {
+  body {
+    /* background-color: aquamarine; */
+  }
+  .nav-list {
+    font-size: 30px;
+  }
+
+  .paragraphes {
+    font-size: 1.25em;
+  }
+
+  #section-texte {
+    padding: 0px;
+  }
+
+  #textes {
+    margin: 0px;
+  }
+  #section-title {
+    font-size: 4em;
+    margin: 0px;
+  }
+
+  #mainPhoto {
+    height: 40%;
+    width: 55%;
+  }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 1000px) {
+  #logo {
+    width: 450px;
+  }
+  #left-side {
+    width: 0px;
+  }
+  #name {
+    display: none;
+  }
+
+  #mainPhoto {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  #logo {
+    width: 300px;
+  }
+  #left-side {
+    width: 0px;
+  }
+  #name {
+    display: none;
+  }
+
+  #mainPhoto {
+    display: none;
   }
 }
