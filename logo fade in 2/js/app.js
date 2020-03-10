@@ -68,7 +68,7 @@ function aboutContent() {
 }
 
 function hobbiesContent() {
-  photo.src = "img/DjDodgeman.jpg";
+  photo.src = "img/DjDodgeman2.jpg";
   console.log(photo);
   document.getElementById("section-title").innerHTML = "HOBBIES";
   subtitle1.innerHTML = "GAMING";
