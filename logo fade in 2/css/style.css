@@ -369,31 +369,58 @@ body {
     justify-content: center;
     align-items: center;
   }
+  #navigation {
+    margin: 0px;
+    /* background-color: cyan; */
+  }
 
   .nav-list {
     font-size: 20px;
   }
 
+  .nav-link::after {
+    display: none;
+  }
+
   .paragraphes {
     font-size: 1.1em;
   }
+
   #logo {
     width: 280px;
   }
+
   #left-side {
     display: none;
     width: 0px;
   }
-  #name {
-    display: none;
-  }
-  #section-title {
-    font-size: 2.5em;
+
+  #site-main {
+    width: 100%;
     margin: 0px;
   }
 
-  #textes {
+  #name {
+    display: none;
+  }
+
+  #section-title {
+    font-size: 3em;
     margin: 0px;
+    padding: 0px;
+    /* background-color: coral; */
+  }
+
+  #textes {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: cadetblue; */
+  }
+  #section-texte {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: darkgoldenrod; */
   }
 
   #mainPhoto {
