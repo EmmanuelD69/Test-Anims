@@ -1,14 +1,15 @@
+/* source: https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp */
+
+/* obtention des coordonnées des lettres pour l'animation SVG de départ
 const logo = document.querySelectorAll("logo, path");
 console.log(logo);
 
 for (let i = 0; i < logo.length; i++) {
   console.log("letter " + i + " is " + logo[i].getTotalLength());
-}
+}*/
 
 // Pointage vers la photo principale
 var photo = document.getElementById("mainPhoto");
-
-console.log(photo);
 
 // Pointeurs de paragraphes
 var paragraphe1 = document.getElementById("paragraphe1");
@@ -24,14 +25,7 @@ var subtitle2 = document.getElementById("subtitle2");
 var subtitle3 = document.getElementById("subtitle3");
 var subtitle4 = document.getElementById("subtitle4");
 
-// function addImg() {
-//   var image = document.createElement("img");
-//   var imgContent = (image.innerHTML = 'id="mainPhoto" src="img/event.jpg"');
-//   image.appendChild(imgContent);
-//   var img = document.getElementById("left-side");
-//   img.appendChild(image);
-// }
-
+/* Fonctions pour changer contenus en fonction de l'onglet menu cliqué */
 function aboutContent() {
   photo.src = "img/28842525.jpg";
   document.getElementById("section-title").innerHTML = "ABOUT";
@@ -69,7 +63,6 @@ function aboutContent() {
 
 function hobbiesContent() {
   photo.src = "img/DjDodgeman2.jpg";
-  console.log(photo);
   document.getElementById("section-title").innerHTML = "HOBBIES";
   subtitle1.innerHTML = "GAMING";
   subtitle1.style.display = "block";
