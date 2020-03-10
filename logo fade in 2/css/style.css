@@ -1,3 +1,9 @@
+/* 
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Eczar', serif;
+font-family: 'Brawler', serif; 
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -37,8 +43,8 @@ body {
 }
 
 .socialIcons {
-  height: 65%;
-  width: 30%;
+  height: 90%;
+  width: 90%;
 }
 
 #site-main {
@@ -51,7 +57,7 @@ body {
 
 #navigation {
   height: 10vh;
-  /* background-color: darksalmon; */
+  background-color: darksalmon;
 }
 
 #section-texte {
@@ -67,20 +73,23 @@ body {
 }
 
 #section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 10%;
-  font-family: "Cabin Sketch";
+  font-family: "Eczar", serif;
   font-size: 5em;
   color: #333131;
   width: 50%;
-  margin: auto;
-  text-align: center;
-  /* background-color: darkgoldenrod; */
+  margin: 50px;
+  /* text-align: center; */
+  background-color: darkgoldenrod;
 }
 
 #textes {
   height: 90%;
-  font-family: "Cormorant Garamond";
-  /* background-color: darkkhaki; */
+  font-family: "Brawler", serif;
+  background-color: darkkhaki;
   display: flex;
   flex-direction: column;
   margin: 15px;
@@ -106,11 +115,6 @@ body {
   margin-top: 15px;
   margin-left: 15px;
 }
-
-/* #paragraphe5,
-#paragraphe6 {
-  text-align: center;
-} */
 
 .nav-list {
   font-family: "Cabin Sketch";
