@@ -64,25 +64,25 @@ function aboutContent() {
 function hobbiesContent() {
   photo.src = "img/DjDodgeman2.jpg";
   document.getElementById("section-title").innerHTML = "HOBBIES";
-  subtitle1.innerHTML = "GAMING";
+  subtitle1.innerHTML = "DJING";
   subtitle1.style.display = "block";
   paragraphe1.innerHTML =
-    "Mon premier ordinateur fût un IBM Amstrad PC1512 et depuis la fin des années 80, j'ai passé d'interminables heures sur des jeux comme: <br> -Civilization <br> -Elite Dangerous <br> -Anarchy online <br> -World of Warcraft <br> -Ark online <br> -Second Life <br> pour n'en citer que quelques uns…  <br> J'ai développé très jeune une forte appétence pour le Gaming, que je pratique au quotidien.";
-  paragraphe1.style.display = "block";
-  subtitle2.innerHTML = "DJING";
-  subtitle2.style.display = "block";
-  paragraphe2.innerHTML =
     "Thriller - Michael Jackson a été mon premier achat, et reste pour moi le meilleur album de Pop music de tous les temps. J'ai écouté la radio très tôt et enregistré mes premières cassettes, m'amusant à les couper / coller pour faire des enchainements… cela n'est qu'à partir de 1993 que j'ai acheté mes premières platines et vinyles accompagnés d'une table de mixage Numark et d'un gros caisson de basse à moitié moisi mais qui tapait fort :D";
+  paragraphe1.style.display = "block";
+  subtitle2.innerHTML = "";
+  subtitle2.style.display = "none";
+  paragraphe2.innerHTML =
+    "DJing est devenu une véritable passion que je continue de pratiquer fréquemment à titre personnel ou occasionnellement lors de soirées / évènements dans des pubs / nightclubs.";
   paragraphe2.style.display = "block";
   subtitle3.innerHTML = "";
   subtitle3.style.display = "none";
   paragraphe3.innerHTML =
-    "DJing est devenu une véritable passion que je continue de pratiquer fréquemment à titre personnel ou occasionnellement lors de soirées / évènements dans des pubs / nightclubs.";
-  paragraphe3.style.display = "block";
-  subtitle4.innerHTML = "";
-  subtitle4.style.display = "none";
-  paragraphe4.innerHTML =
     'J\'ai un mixcloud que j\'utilise de temps en temps, et où l\'on peux écouter certains de mes mix <br> <a href="https://www.mixcloud.com/emmanuel-durouge" target="_blank">cliquez ici</a> pour acceder à mon Mixcloud.';
+  paragraphe3.style.display = "block";
+  subtitle4.innerHTML = "GAMING";
+  subtitle4.style.display = "block";
+  paragraphe4.innerHTML =
+    "Mon premier ordinateur fût un IBM Amstrad PC1512 et depuis la fin des années 80, j'ai passé d'interminables heures sur des jeux comme: <br> -Civilization <br> -Elite Dangerous <br> -Anarchy online <br> -World of Warcraft <br> -Ark online <br> -Second Life <br> pour n'en citer que quelques uns…  <br> J'ai développé très jeune une forte appétence pour le Gaming, que je pratique au quotidien.";
   paragraphe4.style.display = "block";
   subtitle5.innerHTML = "";
   subtitle5.style.display = "none";
@@ -95,7 +95,7 @@ function hobbiesContent() {
 }
 
 function iLikeContent() {
-  photo.src = "img/disquaire.jpg";
+  photo.src = "img/histoire.jpg";
   document.getElementById("section-title").innerHTML = "I LIKE";
   subtitle1.innerHTML = "HISTOIRE";
   subtitle1.style.display = "block";
