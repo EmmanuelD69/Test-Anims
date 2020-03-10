@@ -117,6 +117,7 @@ body {
   margin-left: 15px;
 }
 
+/* Barre de navigation */
 .nav-list {
   font-family: "Cabin Sketch";
   font-size: 50px;
@@ -129,6 +130,7 @@ body {
   opacity: 1;
 }
 
+/* liens de navigation */
 .nav-link {
   text-decoration: none;
   color: #343434;
@@ -139,6 +141,7 @@ body {
   position: relative;
 } */
 
+/* Pseudo éléments des liens de navigation */
 .nav-link::after {
   content: "^";
   display: flex;
@@ -148,11 +151,13 @@ body {
   opacity: 0;
 }
 
+/* animation de l'opacité du pseudo élément au survol d'un lien de navigation */
 .nav-link:hover::after {
   transition: opacity 1s ease;
   opacity: 1;
 }
 
+/* Logo SVG Animation + Css */
 #logo {
   position: absolute;
   top: 50%;
@@ -242,6 +247,7 @@ body {
   animation: line-anim 2s ease forwards 6s;
 }
 
+/* Animations CSS */
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
@@ -318,7 +324,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 451px) and (max-device-width: 1000px) {
   body {
     flex-direction: column;
     justify-content: center;
@@ -357,7 +363,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 450px) {
   body {
     flex-direction: column;
     justify-content: center;
@@ -372,7 +378,7 @@ body {
     font-size: 1.1em;
   }
   #logo {
-    width: 300px;
+    width: 280px;
   }
   #left-side {
     display: none;
