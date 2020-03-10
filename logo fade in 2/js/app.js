@@ -68,7 +68,7 @@ function aboutContent() {
 }
 
 function hobbiesContent() {
-  photo.src = "img/gaming.jpg";
+  photo.src = "img/DjDodgeman.jpg";
   console.log(photo);
   document.getElementById("section-title").innerHTML = "HOBBIES";
   subtitle1.innerHTML = "GAMING";
@@ -134,7 +134,7 @@ function iLikeContent() {
 }
 
 function contactContent() {
-  photo.src = "img/cellphone2.jpg";
+  photo.src = "img/telephone.jpg";
   document.getElementById("section-title").innerHTML = "CONTACT";
   subtitle1.style.display = "block";
   subtitle1.innerHTML =

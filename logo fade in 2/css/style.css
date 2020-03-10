@@ -37,13 +37,13 @@ body {
 }
 
 #mainPhoto {
-  height: 70%;
-  width: 70%;
+  height: 60%;
+  width: 60%;
   border-radius: 50%;
 }
 
 .socialIcons {
-  height: 90%;
+  height: auto;
   width: 90%;
 }
 
@@ -57,7 +57,7 @@ body {
 
 #navigation {
   height: 10vh;
-  background-color: darksalmon;
+  /* background-color: darksalmon; */
 }
 
 #section-texte {
@@ -83,13 +83,13 @@ body {
   width: 50%;
   margin: 50px;
   /* text-align: center; */
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
 }
 
 #textes {
   height: 90%;
   font-family: "Brawler", serif;
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
   display: flex;
   flex-direction: column;
   margin: 15px;
