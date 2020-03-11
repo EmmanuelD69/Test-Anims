@@ -8,6 +8,8 @@ for (let i = 0; i < logo.length; i++) {
   console.log("letter " + i + " is " + logo[i].getTotalLength());
 }*/
 
+/* CE CODE EST EN VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE OBJETS PROCHAINEMENT */
+
 // Pointage vers la photo principale
 var photo = document.getElementById("mainPhoto");
 
