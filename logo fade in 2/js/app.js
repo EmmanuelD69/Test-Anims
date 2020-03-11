@@ -33,27 +33,27 @@ function aboutContent() {
   subtitle1.innerHTML = "";
   paragraphe1.style.display = "block";
   paragraphe1.innerHTML =
-    "Née le 28 juin 1976 à Avignon, dans la belle région de Provence situé au sud est de la France, j'ai suivi des études technique en élécrtonique avant de me lancer dans la vie active et monter ma propre petite entreprise de restauration à St Rémy de Provence.";
+    "Née le 28 juin 1976 à Avignon, dans la belle région de Provence située au sud est de la France, j'ai suivi des études techniques en électronique avant de me lancer dans la vie active et monter ma propre petite entreprise de restauration à Saint Rémy de Provence.";
   subtitle2.style.display = "none";
   subtitle2.innerHTML = "";
   paragraphe2.style.display = "block";
   paragraphe2.innerHTML =
-    "Cette belle aventure a durée presque 5 ans et m'a enseignée énormément de choses sur: <br>  -Le commerce <br> -La gestion d'entreprise <br> -La communication <br> Mais plus important, sur la vie! Très bonne école.";
+    "Cette belle aventure a durée presque cinq ans et m'a enseignée énormément de choses: <br>  -Le commerce, <br> -La gestion d'entreprise, <br> -La communication, <br> Mais plus important, sur la vie !<br> Très bonne école.";
   subtitle3.style.display = "none";
   subtitle3.innerHTML = "";
   paragraphe3.style.display = "block";
   paragraphe3.innerHTML =
-    "J'ai repris des études en Informatique et obtenu 2 diplômes: <br> -Technicien de maintenance informatique et réseaux <br> -Ingénierie des réseaux industriels et services multimédia";
+    "J'ai repris des études en Informatique et obtenu deux diplômes: <br> -Technicien de maintenance informatique et réseaux, <br> -Ingénierie des réseaux industriels et services multimédia.";
   subtitle4.style.display = "none";
   subtitle4.innerHTML = "";
   paragraphe4.style.display = "block";
   paragraphe4.innerHTML =
-    "A la suite de quoi mon parcours professionnel m'a mené dans la prestation de services où j'ai pu travailler aussi bien en mode BtC / BtB et découvrir des environnements divers, Nationaux et Internationaux. <br> J'ai collaboré au sein d'entreprises tels que: <br> ERDF / GRDF / LA POSTE / VEOLIA / DALKIA / MERIAL / SANOFI ...";
+    "A la suite de quoi mon parcours professionnel m'a mené dans la prestation de services où j'ai pu travailler aussi bien en mode BtC / BtB et découvrir des environnements divers, Nationaux et Internationaux. <br> ERDF / GRDF / LA POSTE / VEOLIA / DALKIA / MERIAL / SANOFI ";
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "block";
   paragraphe5.innerHTML =
-    "J'ai pu aussi assouvir l'une de mes passions, le Djing, en travaillant dans des bars et boites de nuits sur Avignon, Lyon, et St Etienne.";
+    "J'ai pu aussi assouvir l'une de mes passions, le Djing, en travaillant dans des bars et boites de nuits sur Avignon, Lyon et St Etienne.";
   subtitle6.style.display = "none";
   subtitle6.innerHTML = "";
   paragraphe6.style.display = "block";
@@ -67,22 +67,22 @@ function hobbiesContent() {
   subtitle1.innerHTML = "DJING";
   subtitle1.style.display = "block";
   paragraphe1.innerHTML =
-    "Thriller - Michael Jackson a été mon premier achat, et reste pour moi le meilleur album de Pop music de tous les temps. J'ai écouté la radio très tôt et enregistré mes premières cassettes, m'amusant à les couper / coller pour faire des enchainements… cela n'est qu'à partir de 1993 que j'ai acheté mes premières platines et vinyles accompagnés d'une table de mixage Numark et d'un gros caisson de basse à moitié moisi mais qui tapait fort :D";
+    "Thriller - Michael Jackson a été mon premier achat et reste pour moi le meilleur album de musique Pop de tous les temps. J'ai écouté la radio très tôt et enregistré mes premières cassettes, m'amusant à les couper / coller pour faire des enchaînements… cela n'est qu'à partir de 1993 que j'ai acheté mes premières platines et vinyles accompagnés d'une table de mixage Numark et d'un gros caisson de basse à moitié moisi, mais qui tapait fort :D";
   paragraphe1.style.display = "block";
   subtitle2.innerHTML = "";
   subtitle2.style.display = "none";
   paragraphe2.innerHTML =
-    "DJing est devenu une véritable passion que je continue de pratiquer fréquemment à titre personnel ou occasionnellement lors de soirées / évènements dans des pubs / nightclubs.";
+    "DJing est devenu une véritable passion que je continue de pratiquer fréquemment à titre personnel ou occasionnellement lors de soirées / évènements dans des pubs / boites de nuit.";
   paragraphe2.style.display = "block";
   subtitle3.innerHTML = "";
   subtitle3.style.display = "none";
   paragraphe3.innerHTML =
-    'J\'ai un mixcloud que j\'utilise de temps en temps, et où l\'on peux écouter certains de mes mix <br> <a href="https://www.mixcloud.com/emmanuel-durouge" target="_blank">cliquez ici</a> pour acceder à mon Mixcloud.';
+    'J\'ai un mixcloud que j\'utilise de temps en temps et où l\'on peut écouter certains de mes mix <br> <a href="https://www.mixcloud.com/emmanuel-durouge" target="_blank">cliquez ici</a> pour accéder à mon Mixcloud.';
   paragraphe3.style.display = "block";
   subtitle4.innerHTML = "GAMING";
   subtitle4.style.display = "block";
   paragraphe4.innerHTML =
-    "Mon premier ordinateur fût un IBM Amstrad PC1512 et depuis la fin des années 80, j'ai passé d'interminables heures sur des jeux comme: <br> -Civilization <br> -Elite Dangerous <br> -Anarchy online <br> -World of Warcraft <br> -Ark online <br> -Second Life <br> pour n'en citer que quelques uns…  <br> J'ai développé très jeune une forte appétence pour le Gaming, que je pratique au quotidien.";
+    "Mon premier ordinateur fût un IBM Amstrad PC1512 et depuis la fin des années 80, j'ai passé d'interminables heures sur des jeux tels que: <br> -Civilization <br> -Elite Dangerous <br> -Anarchy online <br> -World of Warcraft <br> -Ark online <br> -Second Life <br> pour n'en citer que quelques-uns…  <br> J'ai développé très jeune une forte appétence pour le Gaming, que je pratique au quotidien.";
   paragraphe4.style.display = "block";
   subtitle5.innerHTML = "";
   subtitle5.style.display = "none";
@@ -105,12 +105,12 @@ function iLikeContent() {
   subtitle2.innerHTML = "COMMUNICATION";
   subtitle2.style.display = "block";
   paragraphe2.innerHTML =
-    "CQ, CQ, CQ DX.... <br> CQ veut dire un appel général à toutes stations (provient de l'anglais Seek You --> je vous recherche), la mention DX spécifie des stations longues distances. <br> J'ai eu la chance de lancer des appels sur les ondes longues distances (communications radio) à la fin des années 90 et jusqu'au milieu des années 2000, établissant de très beaux contacts humains avec les quatre coins du monde. Un très bon moyen de développer son anglais! <br> <p>Depuis l'arrivée d'internet, c'est au travers des médias comme Facebook, Mixcloud, Discord, Twitch…. que je communique.</p>";
+    "CQ, CQ, CQ DX.... <br> CQ veut dire un appel général à toutes stations (provient de l'anglais Seek You --> je vous recherche), la mention DX spécifie des stations longues distances. <br> J'ai eu la chance de lancer des appels sur les ondes longues distances (communications radio) à la fin des années 90 et jusqu'au milieu des années 2000, établissant de très beaux contacts humains avec les quatre coins du monde. Un très bon moyen de développer son anglais ! <br> <p>Depuis l'arrivée d'internet, c'est au travers des médias comme Facebook, Mixcloud, Discord, Twitch…. que je communique.</p>";
   paragraphe2.style.display = "block";
   subtitle3.innerHTML = "MUSIC SURF";
   subtitle3.style.display = "block";
   paragraphe3.innerHTML =
-    "Le Djing étant l'une de mes passions, je ne peux rester sans découvrir de nouveaux artistes ou re découvrir les standards qui ont fait danser des générations entières. <br> Je passe donc souvent du temps à rechercher les pépites à venir, notamment en ce qui concerne la musique électronique qui reste mon style favori. <br> Comme chez un disquaire, je navigue sur les sites web de musique à la recherche des hits à venir, des nouveaux talents de la scène électro et l'inspiration pour mes futurs mixes.";
+    "Le Djing étant l'une de mes passions, je ne peux rester sans découvrir de nouveaux artistes ou redécouvrir les standards qui ont fait danser des générations entières. <br> Je passe donc souvent du temps à rechercher les pépites à venir, notamment en ce qui concerne la musique électronique qui reste mon style favori. <br> Comme chez un disquaire, je navigue sur les sites web de musique à la recherche des hits à venir, de nouveaux talents de la scène électronique et l'inspiration pour mes futurs mixes.";
   paragraphe3.style.display = "block";
   subtitle4.style.display = "none";
   subtitle4.innerHTML = "";
