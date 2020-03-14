@@ -9,11 +9,27 @@ for (let i = 0; i < logo.length; i++) {
 }*/
 
 /* CE CODE EST EN VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE OBJETS PROCHAINEMENT */
+console.log(
+  "Bonjour et bienvenue sur mon site perso. J'espère que mon code vous intéressera, il est en évolution constante car actuellement je n'ai pas encore refactorisé celui-çi. J'ai fais en sorte que le site soit fonctionnel et responsive. Je suis donc à ma version 1.0 et tout reste à développer. Si vous souhaitez me contacter, n'hésitez pas, je suis en recherche active d'un poste de développeur web. Merci et bonne lecture."
+);
 
-// Pointage vers la photo principale
+// Pointeurs vers les sections principales du site
+var leftside = document.getElementById("left-side");
+var rightside = document.getElementById("site-main");
+
+// Pointeur vers la photo principale
 var photo = document.getElementById("mainPhoto");
 
-// Pointeurs de paragraphes
+// Pointeur vers la vidéo
+var video = document.getElementById("mp4");
+
+//Pointeurs vers les liens de navigation
+var navLink1 = document.getElementById("about");
+var navLink2 = document.getElementById("hobbies");
+var navLink3 = document.getElementById("ilike");
+var navLink4 = document.getElementById("contact");
+
+// Pointeurs vers les paragraphes
 var paragraphe1 = document.getElementById("paragraphe1");
 var paragraphe2 = document.getElementById("paragraphe2");
 var paragraphe3 = document.getElementById("paragraphe3");
@@ -21,7 +37,7 @@ var paragraphe4 = document.getElementById("paragraphe4");
 var paragraphe5 = document.getElementById("paragraphe5");
 var paragraphe6 = document.getElementById("paragraphe6");
 
-// Pointeurs de sous-titres
+// Pointeurs vers les sous-titres
 var subtitle1 = document.getElementById("subtitle1");
 var subtitle2 = document.getElementById("subtitle2");
 var subtitle3 = document.getElementById("subtitle3");
@@ -29,7 +45,12 @@ var subtitle4 = document.getElementById("subtitle4");
 
 /* Fonctions pour changer contenus en fonction de l'onglet menu cliqué */
 function aboutContent() {
+  navLink1.style.color = "#c26464";
+  navLink2.style.color = "#343434";
+  navLink3.style.color = "#343434";
+  navLink4.style.color = "#343434";
   photo.src = "img/28842525.jpg";
+  // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "ABOUT";
   subtitle1.style.display = "none";
   subtitle1.innerHTML = "";
@@ -64,7 +85,17 @@ function aboutContent() {
 }
 
 function hobbiesContent() {
+  navLink1.style.color = "#343434";
+  navLink2.style.color = "#c26464";
+  navLink3.style.color = "#343434";
+  navLink4.style.color = "#343434";
+  // leftside.style.width = "0%";
+  // leftside.style.display = "none";
+  // rightside.style.width = "100%";
   photo.src = "img/DjDodgeman2.jpg";
+  // photo.style.display = "none";
+  // video.src = "/video/dj2.mp4";
+  // video.style.display = "block";
   document.getElementById("section-title").innerHTML = "HOBBIES";
   subtitle1.innerHTML = "DJING";
   subtitle1.style.display = "block";
@@ -97,7 +128,12 @@ function hobbiesContent() {
 }
 
 function iLikeContent() {
+  navLink1.style.color = "#343434";
+  navLink2.style.color = "#343434";
+  navLink3.style.color = "#c26464";
+  navLink4.style.color = "#343434";
   photo.src = "img/histoire.jpg";
+  // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "I LIKE";
   subtitle1.innerHTML = "HISTOIRE";
   subtitle1.style.display = "block";
@@ -114,10 +150,11 @@ function iLikeContent() {
   paragraphe3.innerHTML =
     "Le Djing étant l'une de mes passions, je ne peux rester sans découvrir de nouveaux artistes ou redécouvrir les standards qui ont fait danser des générations entières. <br> Je passe donc souvent du temps à rechercher les pépites à venir, notamment en ce qui concerne la musique électronique qui reste mon style favori. <br> Comme chez un disquaire, je navigue sur les sites web de musique à la recherche des hits à venir, de nouveaux talents de la scène électronique et l'inspiration pour mes futurs mixes.";
   paragraphe3.style.display = "block";
-  subtitle4.style.display = "none";
-  subtitle4.innerHTML = "";
-  paragraphe4.style.display = "none";
-  paragraphe4.innerHTML = "";
+  subtitle4.style.display = "block";
+  subtitle4.innerHTML = "WEB DEVELOPMENT";
+  paragraphe4.style.display = "block";
+  paragraphe4.innerHTML =
+    "Pourvoir créer un espace sur le net où l'on puisse s'exprimer, présenter ses créations, laisser libre cours à son imagination et l'exposer au monde entier ou tout du moins à ceux que cela intéresse. <br> Voilà une autre forme de communication qui m'a toujours plu et que j'ai toujours voulu apprendre et mettre en application. <br> Depuis mai 2017 j'ai pris la décision de me consacrer au développement web en suivant une formation de développeur full stack, comprenez par là, développeur avec une connaissance globale des langages utilisés pour développer des sites web. <br> Il en est ressorti une appétence plus prononcée pour le Front end, la partie visuelle, la vitrine, ce que l'on voit en premier en se connectant à un site web.";
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "none";
@@ -129,7 +166,12 @@ function iLikeContent() {
 }
 
 function contactContent() {
+  navLink1.style.color = "#343434";
+  navLink2.style.color = "#343434";
+  navLink3.style.color = "#343434";
+  navLink4.style.color = "#c26464";
   photo.src = "img/telephone.jpg";
+  // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "CONTACT";
   subtitle1.style.display = "block";
   subtitle1.innerHTML =

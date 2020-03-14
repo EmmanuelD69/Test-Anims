@@ -2,6 +2,8 @@
 font-family: 'Cabin Sketch', cursive;
 font-family: 'Eczar', serif;
 font-family: 'Brawler', serif; 
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Martel', serif;
 */
 
 /* CE CODE EST A SA VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE SASS PROCHAINEMENT */
@@ -16,12 +18,41 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: #dfd7cd;
+  flex-direction: column;
+  background-color: #dbcab3;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+}
+
+footer {
+  height: 5vh;
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mp4 {
+  width: 100%;
+  height: 100%;
+  display: none;
 }
 
 #left-side {
   width: 50%;
-  height: 100vh;
+  height: 100%;
   /* background-color: teal; */
   opacity: 0;
   display: flex;
@@ -33,33 +64,38 @@ body {
 }
 
 #name {
+  width: 50%;
   font-family: "Cabin Sketch";
   color: #343434;
   font-size: 4em;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #mainPhoto {
   height: 60%;
-  width: 60%;
+  width: 50%;
   border-radius: 50%;
 }
 
 .socialIcons {
+  width: 50px;
   height: auto;
-  width: 90%;
 }
 
 #site-main {
   width: 50%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
   /* background-color: thistle; */
   opacity: 0;
   animation: appear 8s ease forwards 9s;
 }
 
 #navigation {
-  height: 10vh;
-  /* width: auto; */
+  width: 50%;
   /* background-color: darksalmon; */
 }
 
@@ -76,22 +112,16 @@ body {
 }
 
 #section-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10%;
-  font-family: "Eczar", serif;
-  font-size: 5em;
-  color: #333131;
-  width: 50%;
-  margin: 50px;
-  /* text-align: center; */
+  font-family: "Martel", serif;
+  font-size: 4em;
+  color: #343434;
+  text-align: center;
   /* background-color: darkgoldenrod; */
 }
 
 #textes {
   height: 90%;
-  font-family: "Brawler", serif;
+  font-family: "Martel", serif;
   /* background-color: darkkhaki; */
   display: flex;
   flex-direction: column;
@@ -108,6 +138,7 @@ body {
 }
 
 .subtitles {
+  font-family: "Jacques Francois Shadow", cursive;
   text-decoration: underline;
   margin-top: 35px;
   text-align: center;
@@ -123,13 +154,12 @@ body {
 .nav-list {
   font-family: "Cabin Sketch";
   font-size: 50px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   list-style: none;
   /* background-color: tomato; */
   opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* liens de navigation */
@@ -138,25 +168,30 @@ body {
   color: #343434;
 }
 
-/* .nav-link::before {
-  content: "—";
-  position: relative;
-} */
+.nav-link:hover {
+  color: #0a0a0a;
+  transition: ease 0.5s;
+}
 
 /* Pseudo éléments des liens de navigation */
-.nav-link::after {
+/* .nav-link::after {
   content: "^";
   display: flex;
   justify-content: center;
   align-items: center;
   color: #343434;
   opacity: 0;
-}
+} */
 
 /* animation de l'opacité du pseudo élément au survol d'un lien de navigation */
-.nav-link:hover::after {
+/* .nav-link:hover::after {
   transition: opacity 1s ease;
   opacity: 1;
+} */
+
+.nav-list-link:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 0.6s;
 }
 
 /* Logo SVG Animation + Css */
@@ -307,7 +342,9 @@ body {
   .paragraphes {
     font-size: 1.25em;
   }
-
+  #name {
+    font-size: 2.5em;
+  }
   #section-texte {
     padding: 0px;
   }
@@ -333,8 +370,20 @@ body {
     align-items: center;
   }
 
+  header {
+    /* background-color: cadetblue; */
+    width: 100%;
+  }
+
+  #navigation {
+    margin: 0px;
+    width: 100%;
+    /* background-color: cyan; */
+  }
+
   .nav-list {
     font-size: 30px;
+    width: 100%;
   }
 
   .paragraphes {
@@ -353,6 +402,7 @@ body {
   }
   #name {
     display: none;
+    width: 0%;
   }
 
   #section-title {
@@ -371,25 +421,34 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  header {
+    /* background-color: cadetblue; */
+    width: 100%;
+  }
+
+  #logo {
+    width: 280px;
+  }
+
+  #mainPhoto {
+    display: none;
+  }
+
+  #name {
+    display: none;
+    width: 0%;
+  }
+
   #navigation {
     margin: 0px;
+    width: 100%;
     /* background-color: cyan; */
   }
 
   .nav-list {
     font-size: 20px;
-  }
-
-  .nav-link::after {
-    display: none;
-  }
-
-  .paragraphes {
-    font-size: 1.1em;
-  }
-
-  #logo {
-    width: 280px;
+    width: 100%;
   }
 
   #left-side {
@@ -400,10 +459,6 @@ body {
   #site-main {
     width: 100%;
     margin: 0px;
-  }
-
-  #name {
-    display: none;
   }
 
   #section-title {
@@ -425,7 +480,11 @@ body {
     /* background-color: darkgoldenrod; */
   }
 
-  #mainPhoto {
-    display: none;
+  .paragraphes {
+    font-size: 1.1em;
+  }
+
+  #copyright {
+    font-size: 0.75em;
   }
 }
