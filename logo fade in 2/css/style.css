@@ -134,6 +134,8 @@ footer {
   /* background-color: cadetblue; */
   display: flex;
   align-items: center;
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
 }
 
 #socialNetworks {
@@ -466,6 +468,35 @@ footer {
 
   #mainPhoto {
     display: none;
+  }
+
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    flex-direction: column;
+  }
+
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    width: 100%;
+    text-align: center;
+  }
+
+  #emmanuelDevBio,
+  #lithoxoouBio {
+    order: 1;
+  }
+
+  #emmanuelDevCapture,
+  #lithoxoouCapture {
+    order: 2;
   }
 }
 

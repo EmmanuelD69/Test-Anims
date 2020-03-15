@@ -186,25 +186,25 @@ function portfolioContent() {
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
-  subtitle1.innerHTML = "Mon site web professionnel 100% fait maison";
+  subtitle1.innerHTML = "Mon site web professionnel";
   paragraphe1.style.display = "block";
   paragraphe1.innerHTML =
-    '<section id="lecoMusik"><a id="lecoCapture" href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p></section>';
+    '<section id="emmanuelDev"><a id="emmanuelDevCapture" href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a><p id="emmanuelDevBio">Il a été réalisé en combinant mes connaissances en html, css et JavaScript, tout en y ajoutant des contenus et idées trouvées sur le web.</p></section>';
   subtitle2.style.display = "block";
   subtitle2.innerHTML = "Mon site Wordpress fait avec Divi";
   paragraphe2.style.display = "block";
   paragraphe2.innerHTML =
-    '<section id="lecoMusik"><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p><a id="lecoCapture" href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></section>';
+    '<section id="emmanuelDevWordpress"><p id="emmanuelDevWordpressBio">Voici mon site Wordpress, réalisé à l\'aide de Divi, un outil permettant la construction de site par ajout de modules. Pas vraiment de programmation ,mais une connaissance de Wordpress nécessaire.</p><a id="emmanuelDevWordpressCapture" href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></section>';
   subtitle3.style.display = "block";
   subtitle3.innerHTML = "Site réalisé pour un ébéniste tradition";
   paragraphe3.style.display = "block";
   paragraphe3.innerHTML =
-    '<section id="lecoMusik"><a id="lecoCapture" href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.png"></a><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p></section>';
+    '<section id="lithoxoou"><a id="lithoxoouCapture" href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.png"></a><p id="lithoxoouBio">Je suis très heureux d\'avoir pu réaliser ce site vitrine pour un proche vivant en Grèce. Là encore, pas de programmation mais l\'usage des modules de Wordpress pour mettre en place le site.</p></section>';
   subtitle4.style.display = "block";
   subtitle4.innerHTML = "Site pour un Dj / Producer";
   paragraphe4.style.display = "block";
   paragraphe4.innerHTML =
-    '<section id="lecoMusik"><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p><a id="lecoCapture" href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></section>';
+    '<section id="lecoMusik"><p id="lecoBio">Cette page vitrine a été réalisé pour un ami DJ/Producer, il s\'agit d\'un code simple alliant html / css avec des animations sympa.</p><a id="lecoCapture" href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></section>';
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "none";
