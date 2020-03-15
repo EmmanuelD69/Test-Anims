@@ -186,11 +186,11 @@ function portfolioContent() {
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
-  subtitle1.innerHTML = "";
+  subtitle1.innerHTML = "WORK IN PROGRESS";
   paragraphe1.style.display = "none";
   paragraphe1.innerHTML = "";
   subtitle2.style.display = "block";
-  subtitle2.innerHTML = "";
+  subtitle2.innerHTML = "EN COURS D'AJOUT";
   paragraphe2.style.display = "none";
   paragraphe2.innerHTML = "";
   subtitle3.style.display = "none";
