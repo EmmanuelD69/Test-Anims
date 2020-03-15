@@ -452,10 +452,12 @@ body::-webkit-scrollbar {
 
   #socialNetworks {
     width: 100%;
+    order: 1;
   }
 
   #copyright {
     width: 100%;
+    order: 2;
   }
 
   #navigation {
@@ -546,10 +548,12 @@ body::-webkit-scrollbar {
 
   #socialNetworks {
     width: 100%;
+    order: 1;
   }
 
   #copyright {
     width: 100%;
+    order: 2;
   }
 
   #logo {
