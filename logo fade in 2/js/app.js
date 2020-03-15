@@ -13,9 +13,17 @@ console.log(
   "Bonjour et bienvenue sur mon site perso. J'espère que mon code vous intéressera, il est en évolution constante car actuellement je n'ai pas encore refactorisé celui-çi. J'ai fais en sorte que le site soit fonctionnel et responsive. Je suis donc à ma version 1.0 et tout reste à développer. Si vous souhaitez me contacter, n'hésitez pas, je suis en recherche active d'un poste de développeur web. Merci et bonne lecture."
 );
 
+/* Création d'une variable pour scroll up le texte lorsqu'on passe d'un lien à l'autre */
+var scrollTop = {
+  left: 0,
+  top: 0,
+  behavior: "smooth"
+};
+
 // Pointeurs vers les sections principales du site
 var leftside = document.getElementById("left-side");
 var rightside = document.getElementById("site-main");
+var textes = document.getElementById("textes");
 
 // Pointeur vers la photo principale
 var photo = document.getElementById("mainPhoto");
@@ -45,6 +53,7 @@ var subtitle4 = document.getElementById("subtitle4");
 
 /* Fonctions pour changer contenus en fonction de l'onglet menu cliqué */
 function aboutContent() {
+  textes.scrollTo(scrollTop);
   navLink1.style.color = "#c26464";
   navLink2.style.color = "#343434";
   navLink3.style.color = "#343434";
@@ -85,6 +94,7 @@ function aboutContent() {
 }
 
 function hobbiesContent() {
+  textes.scrollTo(scrollTop);
   navLink1.style.color = "#343434";
   navLink2.style.color = "#c26464";
   navLink3.style.color = "#343434";
@@ -128,6 +138,7 @@ function hobbiesContent() {
 }
 
 function iLikeContent() {
+  textes.scrollTo(scrollTop);
   navLink1.style.color = "#343434";
   navLink2.style.color = "#343434";
   navLink3.style.color = "#c26464";
@@ -166,6 +177,7 @@ function iLikeContent() {
 }
 
 function contactContent() {
+  textes.scrollTo(scrollTop);
   navLink1.style.color = "#343434";
   navLink2.style.color = "#343434";
   navLink3.style.color = "#343434";
