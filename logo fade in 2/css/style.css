@@ -299,12 +299,22 @@ footer {
   transition: ease-in-out 0.6s;
 }
 
-#lecoMusik {
+/* Structure de la partie Portfolio */
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
   display: flex;
 }
 
 #lecoCapture,
-#lecoBio {
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevWordpressCapture,
+#lithoxoouCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressBio,
+#lithoxoouBio {
   width: 50%;
   height: auto;
   font-family: "Martel", serif;
