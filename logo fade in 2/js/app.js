@@ -191,7 +191,7 @@ function portfolioContent() {
   paragraphe1.innerHTML =
     '<section id="emmanuelDev"><a id="emmanuelDevCapture" href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a><p id="emmanuelDevBio">Il a été réalisé en combinant mes connaissances en html, css et JavaScript, tout en y ajoutant des contenus et idées trouvées sur le web.</p></section>';
   subtitle2.style.display = "block";
-  subtitle2.innerHTML = "Mon site Wordpress fait avec Divi";
+  subtitle2.innerHTML = "Mon site Wordpress";
   paragraphe2.style.display = "block";
   paragraphe2.innerHTML =
     '<section id="emmanuelDevWordpress"><p id="emmanuelDevWordpressBio">Voici mon site Wordpress, réalisé à l\'aide de Divi, un outil permettant la construction de site par ajout de modules. Pas vraiment de programmation ,mais une connaissance de Wordpress nécessaire.</p><a id="emmanuelDevWordpressCapture" href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></section>';
