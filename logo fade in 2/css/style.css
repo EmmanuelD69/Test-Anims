@@ -7,193 +7,6 @@ font-family: 'Martel', serif;
 */
 
 /* CE CODE EST A SA VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE SASS PROCHAINEMENT */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #dbcab3;
-}
-
-header {
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  animation: appear 8s ease forwards 9s;
-}
-
-main {
-  height: 85vh;
-  display: flex;
-}
-
-footer {
-  height: 5vh;
-  /* background-color: cadetblue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mp4 {
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-#left-side {
-  width: 50%;
-  height: 100%;
-  /* background-color: teal; */
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  animation: appear 6s ease forwards 8s;
-  border-right: 1px solid #343434;
-}
-
-#name {
-  width: 50%;
-  font-family: "Cabin Sketch";
-  color: #343434;
-  font-size: 4em;
-  /* background-color: aquamarine; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mainPhoto {
-  height: 60%;
-  width: 50%;
-  border-radius: 50%;
-}
-
-.socialIcons {
-  width: 50px;
-  height: auto;
-}
-
-#site-main {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  /* background-color: thistle; */
-  opacity: 0;
-  animation: appear 8s ease forwards 9s;
-}
-
-#navigation {
-  width: 50%;
-  /* background-color: darksalmon; */
-}
-
-#section-texte {
-  width: 100%;
-  height: 85vh;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-color: cadetblue; */
-}
-
-#section-title {
-  font-family: "Martel", serif;
-  font-size: 4em;
-  color: #343434;
-  text-align: center;
-  /* background-color: darkgoldenrod; */
-}
-
-#textes {
-  height: 90%;
-  font-family: "Martel", serif;
-  /* background-color: darkkhaki; */
-  display: flex;
-  flex-direction: column;
-  margin: 15px;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-
-/* this is to remove the scrollbar */
-#textes::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.subtitles {
-  font-family: "Jacques Francois Shadow", cursive;
-  text-decoration: underline;
-  margin-top: 35px;
-  text-align: center;
-}
-
-.paragraphes {
-  font-size: 1.5em;
-  margin-top: 15px;
-  margin-left: 15px;
-}
-
-/* Barre de navigation */
-.nav-list {
-  font-family: "Cabin Sketch";
-  font-size: 50px;
-  list-style: none;
-  /* background-color: tomato; */
-  opacity: 1;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-/* liens de navigation */
-.nav-link {
-  text-decoration: none;
-  color: #343434;
-}
-
-.nav-link:hover {
-  color: #0a0a0a;
-  transition: ease 0.5s;
-}
-
-/* Pseudo éléments des liens de navigation */
-/* .nav-link::after {
-  content: "^";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #343434;
-  opacity: 0;
-} */
-
-/* animation de l'opacité du pseudo élément au survol d'un lien de navigation */
-/* .nav-link:hover::after {
-  transition: opacity 1s ease;
-  opacity: 1;
-} */
-
-.nav-list-link:hover {
-  transform: scale(1.4);
-  transition: ease-in-out 0.6s;
-}
-
 /* Logo SVG Animation + Css */
 #logo {
   position: absolute;
@@ -282,6 +95,217 @@ footer {
   stroke-dasharray: 1295.451171875px;
   stroke-dashoffset: 1295.451171875px;
   animation: line-anim 2s ease forwards 6s;
+}
+
+/*******************************/
+/*       CSS PRINCIPAL         */
+/*******************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbcab3;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+}
+
+footer {
+  height: 5vh;
+  /* background-color: cadetblue; */
+  display: flex;
+  align-items: center;
+}
+
+#socialNetworks {
+  /* background-color: rgb(126, 37, 37); */
+  width: 50%;
+}
+
+#socialNetworks > ul {
+  /* background-color: chartreuse; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.socialIcons {
+  width: 50px;
+  height: auto;
+  text-align: center;
+}
+
+#copyright {
+  /* background-color: chocolate; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#mp4 {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#left-side {
+  width: 50%;
+  height: 100%;
+  /* background-color: teal; */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: appear 6s ease forwards 8s;
+  border-right: 1px solid #343434;
+}
+
+#name {
+  width: 50%;
+  font-family: "Cabin Sketch";
+  color: #343434;
+  font-size: 4em;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainPhoto {
+  height: 60%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#site-main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: thistle; */
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+#navigation {
+  width: 50%;
+  /* background-color: darksalmon; */
+}
+
+#section-texte {
+  width: 100%;
+  height: 85vh;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: cadetblue; */
+}
+
+#section-title {
+  font-family: "Martel", serif;
+  font-size: 3em;
+  color: #343434;
+  text-align: center;
+  /* background-color: darkgoldenrod; */
+}
+
+#textes {
+  height: 90%;
+  font-family: "Martel", serif;
+  /* background-color: darkkhaki; */
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+/* this is to remove the scrollbar */
+#textes::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.subtitles {
+  font-family: "Jacques Francois Shadow", cursive;
+  text-decoration: underline;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.paragraphes {
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/* Barre de navigation */
+.nav-list {
+  font-family: "Cabin Sketch";
+  font-size: 50px;
+  list-style: none;
+  /* background-color: tomato; */
+  opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* liens de navigation */
+.nav-link {
+  text-decoration: none;
+  color: #343434;
+}
+
+.nav-link:hover {
+  color: #0a0a0a;
+  transition: ease 0.5s;
+}
+
+/* Pseudo éléments des liens de navigation */
+/* .nav-link::after {
+  content: "^";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #343434;
+  opacity: 0;
+} */
+
+/* animation de l'opacité du pseudo élément au survol d'un lien de navigation */
+/* .nav-link:hover::after {
+  transition: opacity 1s ease;
+  opacity: 1;
+} */
+
+.nav-list-link:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 0.6s;
 }
 
 /* Animations CSS */
@@ -375,6 +399,18 @@ footer {
     width: 100%;
   }
 
+  footer {
+    flex-direction: column;
+  }
+
+  #socialNetworks {
+    width: 100%;
+  }
+
+  #copyright {
+    width: 100%;
+  }
+
   #navigation {
     margin: 0px;
     width: 100%;
@@ -424,6 +460,18 @@ footer {
 
   header {
     /* background-color: cadetblue; */
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  #socialNetworks {
+    width: 100%;
+  }
+
+  #copyright {
     width: 100%;
   }
 

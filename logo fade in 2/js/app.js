@@ -176,7 +176,7 @@ function iLikeContent() {
   paragraphe6.innerHTML = "";
 }
 
-function contactContent() {
+function portfolioContent() {
   textes.scrollTo(scrollTop);
   navLink1.style.color = "#343434";
   navLink2.style.color = "#343434";
@@ -184,15 +184,13 @@ function contactContent() {
   navLink4.style.color = "#c26464";
   photo.src = "img/telephone.jpg";
   // video.style.display = "none";
-  document.getElementById("section-title").innerHTML = "CONTACT";
+  document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
-  subtitle1.innerHTML =
-    '<a href="mailto:emmanueldevfr@gmail.com"><img class="socialIcons" src="img/gmail.png"></a>';
+  subtitle1.innerHTML = "";
   paragraphe1.style.display = "none";
   paragraphe1.innerHTML = "";
   subtitle2.style.display = "block";
-  subtitle2.innerHTML =
-    '<a href="https://www.facebook.com/emmanuel.durouge/" target="_blank"><img class="socialIcons" src="img/facebook2.png"></a>';
+  subtitle2.innerHTML = "";
   paragraphe2.style.display = "none";
   paragraphe2.innerHTML = "";
   subtitle3.style.display = "none";
