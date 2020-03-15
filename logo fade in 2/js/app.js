@@ -186,21 +186,25 @@ function portfolioContent() {
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
-  subtitle1.innerHTML = "WORK IN PROGRESS";
-  paragraphe1.style.display = "none";
-  paragraphe1.innerHTML = "";
+  subtitle1.innerHTML = "Mon site web professionnel 100% fait maison";
+  paragraphe1.style.display = "block";
+  paragraphe1.innerHTML =
+    '<section id="lecoMusik"><a id="lecoCapture" href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p></section>';
   subtitle2.style.display = "block";
-  subtitle2.innerHTML = "EN COURS D'AJOUT";
-  paragraphe2.style.display = "none";
-  paragraphe2.innerHTML = "";
-  subtitle3.style.display = "none";
-  subtitle3.innerHTML = "";
-  paragraphe3.style.display = "none";
-  paragraphe3.innerHTML = "";
-  subtitle4.style.display = "none";
-  subtitle4.innerHTML = "";
-  paragraphe4.style.display = "none";
-  paragraphe4.innerHTML = "";
+  subtitle2.innerHTML = "Mon site Wordpress fait avec Divi";
+  paragraphe2.style.display = "block";
+  paragraphe2.innerHTML =
+    '<section id="lecoMusik"><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p><a id="lecoCapture" href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></section>';
+  subtitle3.style.display = "block";
+  subtitle3.innerHTML = "Site réalisé pour un ébéniste tradition";
+  paragraphe3.style.display = "block";
+  paragraphe3.innerHTML =
+    '<section id="lecoMusik"><a id="lecoCapture" href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.png"></a><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p></section>';
+  subtitle4.style.display = "block";
+  subtitle4.innerHTML = "Site pour un Dj / Producer";
+  paragraphe4.style.display = "block";
+  paragraphe4.innerHTML =
+    '<section id="lecoMusik"><p id="lecoBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam necessitatibus. Soluta omnis eligendi quo animi fuga quos, est, maiores ex placeat molestiae architecto officia atque perspiciatis aliquid magnam esse.</p><a id="lecoCapture" href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></section>';
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "none";

@@ -193,6 +193,11 @@ footer {
   align-items: center;
 }
 
+.portfolioPictures {
+  width: 100%;
+  height: auto;
+}
+
 #mainPhoto {
   height: 60%;
   width: 50%;
@@ -287,6 +292,24 @@ footer {
   transition: ease 0.5s;
 }
 
+.nav-list-link:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 0.6s;
+}
+
+#lecoMusik {
+  display: flex;
+}
+
+#lecoCapture,
+#lecoBio {
+  width: 50%;
+  height: auto;
+  font-family: "Martel", serif;
+  font-size: 0.9em;
+  margin: 5px;
+}
+
 /* Pseudo éléments des liens de navigation */
 /* .nav-link::after {
   content: "^";
@@ -302,11 +325,6 @@ footer {
   transition: opacity 1s ease;
   opacity: 1;
 } */
-
-.nav-list-link:hover {
-  transform: scale(1.4);
-  transition: ease-in-out 0.6s;
-}
 
 /* Animations CSS */
 @keyframes line-anim {
