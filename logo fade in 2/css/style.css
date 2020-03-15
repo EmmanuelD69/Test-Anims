@@ -338,7 +338,10 @@ footer {
   opacity: 1;
 } */
 
+/******************/
 /* Animations CSS */
+/******************/
+
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
@@ -363,7 +366,11 @@ footer {
   }
 }
 
+/*****************************************/
 /* MEDIA QUERIES / RESPONSIVE WEB DESIGN */
+/*****************************************/
+
+/* DESKTOP */
 @media only screen and (min-device-width: 1251px) and (max-device-width: 1500px) {
   body {
     /* background-color: cadetblue; */
@@ -385,6 +392,7 @@ footer {
   }
 }
 
+/* DESKTOP + TABLET */
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1250px) {
   body {
     /* background-color: aquamarine; */
@@ -417,6 +425,7 @@ footer {
   }
 }
 
+/* TABLET + PHONES */
 @media only screen and (min-device-width: 451px) and (max-device-width: 1000px) {
   body {
     flex-direction: column;
@@ -510,6 +519,7 @@ footer {
   }
 }
 
+/* PHONES */
 @media only screen and (min-device-width: 300px) and (max-device-width: 450px) {
   body {
     flex-direction: column;
