@@ -584,4 +584,33 @@ footer {
   #copyright {
     font-size: 0.75em;
   }
+
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    flex-direction: column;
+  }
+
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    width: 100%;
+    text-align: center;
+  }
+
+  #emmanuelDevBio,
+  #lithoxoouBio {
+    order: 1;
+  }
+
+  #emmanuelDevCapture,
+  #lithoxoouCapture {
+    order: 2;
+  }
 }
