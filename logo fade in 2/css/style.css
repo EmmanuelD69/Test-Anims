@@ -112,7 +112,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #dbcab3;
+  background-color: #dfd8d0;
 }
 
 header {
@@ -201,9 +201,9 @@ footer {
 }
 
 #mainPhoto {
-  height: 60%;
-  width: 50%;
-  border-radius: 50%;
+  width: 90%;
+  object-fit: cover;
+  /* border-radius: 50%; */
 }
 
 #site-main {

@@ -58,7 +58,7 @@ function aboutContent() {
   navLink2.style.color = "#343434";
   navLink3.style.color = "#343434";
   navLink4.style.color = "#343434";
-  photo.src = "img/28842525.jpg";
+  photo.src = "img/emmanuel.jpg";
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "ABOUT";
   subtitle1.style.display = "none";
@@ -80,7 +80,7 @@ function aboutContent() {
   subtitle4.innerHTML = "";
   paragraphe4.style.display = "block";
   paragraphe4.innerHTML =
-    "A la suite de quoi mon parcours professionnel m'a mené dans la prestation de services où j'ai pu travailler aussi bien en mode BtC / BtB et découvrir des environnements divers, Nationaux et Internationaux. <br> ERDF / GRDF / LA POSTE / VEOLIA / DALKIA / MERIAL / SANOFI ";
+    "A la suite de quoi mon parcours professionnel m'a mené dans la prestation de services où j'ai pu travailler aussi bien en mode BtC / BtB et découvrir des environnements divers, Nationaux et Internationaux. <br> ERDF / GRDF / LA POSTE / VEOLIA / DALKIA / MERIAL / SANOFI. <br> Plus récemment j'ai suivi deux formations complémentaires de Développeur web et suis actuellement en recherche active pour un poste de développeur front end ou chef de projet junior. ";
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "block";
@@ -102,7 +102,7 @@ function hobbiesContent() {
   // leftside.style.width = "0%";
   // leftside.style.display = "none";
   // rightside.style.width = "100%";
-  photo.src = "img/DjDodgeman2.jpg";
+  photo.src = "img/DjDodgeman2.png";
   // photo.style.display = "none";
   // video.src = "/video/dj2.mp4";
   // video.style.display = "block";
@@ -143,7 +143,7 @@ function iLikeContent() {
   navLink2.style.color = "#343434";
   navLink3.style.color = "#c26464";
   navLink4.style.color = "#343434";
-  photo.src = "img/histoire.jpg";
+  photo.src = "img/history.png";
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "I LIKE";
   subtitle1.innerHTML = "HISTOIRE";
@@ -182,7 +182,7 @@ function portfolioContent() {
   navLink2.style.color = "#343434";
   navLink3.style.color = "#343434";
   navLink4.style.color = "#c26464";
-  photo.src = "img/telephone.jpg";
+  photo.src = "img/coding.jpg";
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
