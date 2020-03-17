@@ -120,7 +120,7 @@ function hobbiesContent() {
   subtitle3.innerHTML = "";
   subtitle3.style.display = "none";
   paragraphe3.innerHTML =
-    'J\'ai un mixcloud que j\'utilise de temps en temps et où l\'on peut écouter certains de mes mix. Cliquez sur l\'icone en dessous pour acceder à mon dernier mix. <br> <a id="lastMix" href="https://www.mixcloud.com/emmanuel-durouge/let-the-music-take-over/" target="_blank"><img src="/img/record.png"></a>';
+    'J\'ai un mixcloud que j\'utilise de temps en temps et où l\'on peut écouter certains de mes mix. Cliquez sur l\'icone en dessous pour accéder à mon dernier mix. <br><a id="lastMix" href="https://www.mixcloud.com/emmanuel-durouge/let-the-music-take-over/" target="_blank"><img src="/img/record.png"></a>';
   paragraphe3.style.display = "block";
   subtitle4.innerHTML = "GAMING";
   subtitle4.style.display = "block";
