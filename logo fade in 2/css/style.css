@@ -437,73 +437,51 @@ body::-webkit-scrollbar {
 
 /* TABLET + PHONES */
 @media only screen and (min-device-width: 751px) and (max-device-width: 1000px) {
-  body {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #mainPhoto,
+  #name,
+  #left-side {
+    display: none;
   }
 
-  header {
-    /* background-color: cadetblue; */
-    width: 100%;
-  }
-
-  footer {
-    flex-direction: column;
-  }
-
-  #socialNetworks {
-    width: 100%;
-    order: 1;
-  }
-
-  #copyright {
-    width: 100%;
-    order: 2;
-  }
-
-  #navigation {
-    margin: 0px;
-    width: 100%;
-    /* background-color: cyan; */
-  }
-
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
   .nav-list {
     width: 100%;
   }
 
-  #section-title {
-    font-size: 6rem;
-  }
-
+  .nav-list,
   .subtitles {
     font-size: 2.5rem;
+  }
+
+  #section-title {
+    font-size: 4rem;
   }
 
   .paragraphes {
     font-size: 1.8rem;
   }
 
+  header {
+    height: 5vh;
+  }
+
   #logo {
     width: 600px;
   }
 
-  #left-side {
-    display: none;
-  }
-
-  #site-main {
-    width: 100%;
-  }
-
-  #name {
-    display: none;
-  }
-
-  #mainPhoto {
-    display: none;
-  }
-
+  footer,
   #lecoMusik,
   #emmanuelDev,
   #emmanuelDevWordpress,
@@ -519,15 +497,16 @@ body::-webkit-scrollbar {
   #emmanuelDevWordpressBio,
   #lithoxoouCapture,
   #lithoxoouBio {
-    width: 100%;
     text-align: center;
   }
 
+  #socialNetworks,
   #emmanuelDevBio,
   #lithoxoouBio {
     order: 1;
   }
 
+  #copyright,
   #emmanuelDevCapture,
   #lithoxoouCapture {
     order: 2;
@@ -536,68 +515,44 @@ body::-webkit-scrollbar {
 
 /* PHONES */
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) {
-  body {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  #mainPhoto,
+  #name,
+  #left-side {
+    display: none;
+  }
+
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
+  .nav-list {
+    width: 100%;
   }
 
   header {
-    /* background-color: cadetblue; */
-    width: 100%;
-  }
-
-  footer {
-    flex-direction: column;
-  }
-
-  #socialNetworks {
-    width: 100%;
-    order: 1;
-  }
-
-  #copyright {
-    width: 100%;
-    order: 2;
+    height: 5vh;
   }
 
   #logo {
     width: 280px;
   }
 
-  #mainPhoto {
-    display: none;
-  }
-
-  #name {
-    display: none;
-  }
-
-  #navigation {
-    width: 100%;
-    /* background-color: cyan; */
-  }
-
-  #left-side {
-    display: none;
-  }
-
-  #site-main {
-    width: 100%;
-  }
-
-  .nav-list {
+  .nav-list,
+  .subtitles {
     font-size: 2rem;
-    width: 100%;
   }
 
   #section-title {
     font-size: 3rem;
-    /* background-color: coral; */
-  }
-
-  .subtitles {
-    font-size: 2rem;
   }
 
   .paragraphes {
@@ -608,6 +563,7 @@ body::-webkit-scrollbar {
     font-size: 1.2rem;
   }
 
+  footer,
   #lecoMusik,
   #emmanuelDev,
   #emmanuelDevWordpress,
@@ -623,16 +579,17 @@ body::-webkit-scrollbar {
   #emmanuelDevWordpressBio,
   #lithoxoouCapture,
   #lithoxoouBio {
-    width: 100%;
     text-align: center;
     margin-right: 10px;
   }
 
+  #socialNetworks,
   #emmanuelDevBio,
   #lithoxoouBio {
     order: 1;
   }
 
+  #copyright,
   #emmanuelDevCapture,
   #lithoxoouCapture {
     order: 2;
