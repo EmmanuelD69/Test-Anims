@@ -107,6 +107,10 @@ font-family: 'Martel', serif;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -116,6 +120,7 @@ body {
 }
 
 header {
+  font-size: 2rem;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -125,11 +130,13 @@ header {
 }
 
 main {
+  font-size: 2rem;
   height: 85vh;
   display: flex;
 }
 
 footer {
+  font-size: 2rem;
   height: 5vh;
   /* background-color: cadetblue; */
   display: flex;
@@ -188,7 +195,7 @@ footer {
   width: 50%;
   font-family: "Cabin Sketch";
   color: #343434;
-  font-size: 4em;
+  font-size: 6rem;
   /* background-color: aquamarine; */
   display: flex;
   justify-content: center;
@@ -234,7 +241,7 @@ footer {
 
 #section-title {
   font-family: "Martel", serif;
-  font-size: 3em;
+  font-size: 4.5rem;
   color: #343434;
   text-align: center;
   /* background-color: darkgoldenrod; */
@@ -273,18 +280,18 @@ body::-webkit-scrollbar {
   font-family: "Jacques Francois Shadow", cursive;
   text-decoration: underline;
   text-align: center;
+  font-size: 2.5rem;
   /* background-color: crimson; */
 }
 
 .paragraphes {
-  font-size: 1.1em;
   margin: 15px 20px 30px 15px;
 }
 
 /* Barre de navigation */
 .nav-list {
   font-family: "Cabin Sketch";
-  font-size: 50px;
+  font-size: 4.5rem;
   list-style: none;
   /* background-color: tomato; */
   opacity: 1;
@@ -331,7 +338,6 @@ body::-webkit-scrollbar {
   width: 50%;
   height: auto;
   font-family: "Martel", serif;
-  font-size: 0.9em;
   margin-right: 5px;
 }
 
@@ -385,61 +391,52 @@ body::-webkit-scrollbar {
 
 /* DESKTOP */
 @media only screen and (min-device-width: 1251px) and (max-device-width: 1500px) {
-  body {
-    /* background-color: cadetblue; */
-  }
-  .nav-list {
-    font-size: 40px;
+  #name {
+    font-size: 5.5rem;
   }
 
-  .paragraphes {
-    font-size: 1.25em;
+  .nav-list {
+    font-size: 3rem;
   }
 
   #section-title {
-    margin: 0px;
+    font-size: 3rem;
   }
 
-  #mainPhoto {
-    height: 50%;
+  .subtitles {
+    font-size: 2rem;
+  }
+
+  .paragraphes {
+    font-size: 1.8rem;
   }
 }
 
 /* DESKTOP + TABLET */
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1250px) {
-  body {
-    /* background-color: aquamarine; */
+  #name {
+    font-size: 5rem;
   }
+
   .nav-list {
-    font-size: 30px;
+    font-size: 2.5rem;
+  }
+
+  #section-title {
+    font-size: 2.5rem;
+  }
+
+  .subtitles {
+    font-size: 1.8rem;
   }
 
   .paragraphes {
-    font-size: 1.25em;
-  }
-  #name {
-    font-size: 2.5em;
-  }
-  #section-texte {
-    padding: 0px;
-  }
-
-  #textes {
-    margin: 0px;
-  }
-  #section-title {
-    font-size: 4em;
-    margin: 0px;
-  }
-
-  #mainPhoto {
-    height: 40%;
-    width: 55%;
+    font-size: 1.5rem;
   }
 }
 
 /* TABLET + PHONES */
-@media only screen and (min-device-width: 451px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 751px) and (max-device-width: 1000px) {
   body {
     flex-direction: column;
     justify-content: center;
@@ -472,32 +469,35 @@ body::-webkit-scrollbar {
   }
 
   .nav-list {
-    font-size: 30px;
     width: 100%;
   }
 
+  #section-title {
+    font-size: 6rem;
+  }
+
+  .subtitles {
+    font-size: 2.5rem;
+  }
+
   .paragraphes {
-    font-size: 1.2em;
+    font-size: 1.8rem;
   }
+
   #logo {
-    width: 450px;
+    width: 600px;
   }
+
   #left-side {
     display: none;
-    width: 0%;
   }
 
   #site-main {
     width: 100%;
   }
+
   #name {
     display: none;
-    width: 0%;
-  }
-
-  #section-title {
-    font-size: 4em;
-    margin: 0px;
   }
 
   #mainPhoto {
@@ -535,7 +535,7 @@ body::-webkit-scrollbar {
 }
 
 /* PHONES */
-@media only screen and (min-device-width: 300px) and (max-device-width: 450px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) {
   body {
     flex-direction: column;
     justify-content: center;
@@ -571,55 +571,41 @@ body::-webkit-scrollbar {
 
   #name {
     display: none;
-    width: 0%;
   }
 
   #navigation {
-    margin: 0px;
     width: 100%;
     /* background-color: cyan; */
   }
 
-  .nav-list {
-    font-size: 20px;
-    width: 100%;
-  }
-
   #left-side {
     display: none;
-    width: 0px;
   }
 
   #site-main {
     width: 100%;
-    margin: 0px;
+  }
+
+  .nav-list {
+    font-size: 2rem;
+    width: 100%;
   }
 
   #section-title {
-    font-size: 3em;
-    margin: 0px;
-    padding: 0px;
+    font-size: 3rem;
     /* background-color: coral; */
   }
 
-  #textes {
-    padding: 0px;
-    margin: 0px;
-    /* background-color: cadetblue; */
-  }
-  #section-texte {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    /* background-color: darkgoldenrod; */
+  .subtitles {
+    font-size: 2rem;
   }
 
   .paragraphes {
-    font-size: 1.1em;
+    font-size: 1.5rem;
   }
 
   #copyright {
-    font-size: 0.75em;
+    font-size: 1.2rem;
   }
 
   #lecoMusik,
