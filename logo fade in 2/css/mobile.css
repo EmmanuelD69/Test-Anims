@@ -1,0 +1,80 @@
+/* MOBILE PHONES */
+#mainPhoto,
+#name,
+#left-side {
+  display: none;
+}
+
+header,
+#socialNetworks,
+#copyright,
+#navigation,
+#site-main,
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio,
+.nav-list {
+  width: 100%;
+}
+
+header {
+  height: 5vh;
+}
+
+#logo {
+  width: 280px;
+}
+
+.nav-list,
+.subtitles {
+  font-size: 2rem;
+}
+
+#section-title {
+  font-size: 3rem;
+}
+
+.paragraphes {
+  font-size: 1.5rem;
+}
+
+#copyright {
+  font-size: 1.2rem;
+}
+
+footer,
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
+  flex-direction: column;
+}
+
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio {
+  text-align: center;
+  margin-right: 10px;
+}
+
+#socialNetworks,
+#emmanuelDevBio,
+#lithoxoouBio {
+  order: 1;
+}
+
+#copyright,
+#emmanuelDevCapture,
+#lithoxoouCapture {
+  order: 2;
+}
