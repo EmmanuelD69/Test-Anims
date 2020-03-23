@@ -1,8 +1,23 @@
-/* MOBILE PHONES */
-#mainPhoto,
+/* TABLETS */
+
+main {
+  padding: 1rem 0rem;
+  margin: 0rem;
+  min-height: 90vh;
+}
+
 #name,
+#mainPhoto,
 #left-side {
   display: none;
+}
+
+#site-main {
+  min-height: 60vh;
+}
+
+#textes {
+  padding: 0rem calc(4rem + 0.5vw);
 }
 
 header,
@@ -22,29 +37,25 @@ header,
   width: 100%;
 }
 
+.nav-list,
+.subtitles {
+  font-size: calc(1.5rem + 1vw);
+}
+
+#section-title {
+  font-size: calc(2rem + 1vw);
+}
+
+.paragraphes {
+  font-size: calc(1rem + 1vw);
+}
+
 header {
   height: 5vh;
 }
 
 #logo {
-  width: 280px;
-}
-
-.nav-list,
-.subtitles {
-  font-size: 2rem;
-}
-
-#section-title {
-  font-size: 3rem;
-}
-
-.paragraphes {
-  font-size: 1.5rem;
-}
-
-#copyright {
-  font-size: 1.2rem;
+  width: 600px;
 }
 
 footer,
@@ -64,17 +75,13 @@ footer,
 #lithoxoouCapture,
 #lithoxoouBio {
   text-align: center;
-  margin-right: 10px;
+  flex: 1 1 0rem;
 }
 
-#socialNetworks,
-#emmanuelDevBio,
-#lithoxoouBio {
+#socialNetworks {
   order: 1;
 }
 
-#copyright,
-#emmanuelDevCapture,
-#lithoxoouCapture {
+#copyright {
   order: 2;
 }

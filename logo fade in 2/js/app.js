@@ -154,7 +154,7 @@ function iLikeContent() {
   subtitle2.innerHTML = "COMMUNICATION";
   subtitle2.style.display = "block";
   paragraphe2.innerHTML =
-    "CQ, CQ, CQ DX.... <br> CQ veut dire un appel général à toutes stations (provient de l'anglais Seek You --> je vous recherche), la mention DX spécifie des stations longues distances. <br> J'ai eu la chance de lancer des appels sur les ondes longues distances (communications radio) à la fin des années 90 et jusqu'au milieu des années 2000, établissant de très beaux contacts humains avec les quatre coins du monde. Un très bon moyen de développer son anglais ! <br> <p>Depuis l'arrivée d'internet, c'est au travers des médias comme Facebook, Mixcloud, Discord, Twitch…. que je communique.</p>";
+    "CQ, CQ, CQ DX.... <br> CQ veut dire un appel général à toutes stations (provient de l'anglais Seek You --> je vous recherche), la mention DX spécifie des stations longues distances. <br> J'ai eu la chance de lancer des appels sur les ondes longues distances (communications radio) à la fin des années 90 et jusqu'au milieu des années 2000, établissant de très beaux contacts humains avec les quatre coins du monde. Un très bon moyen de développer son anglais ! <br> <p>Depuis l'arrivée d'internet, c'est au travers des médias comme Facebook, Mixcloud, Discord, Twitch…. que je communique.";
   paragraphe2.style.display = "block";
   subtitle3.innerHTML = "MUSIC SURF";
   subtitle3.style.display = "block";

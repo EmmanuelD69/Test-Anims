@@ -1,8 +1,12 @@
-/* TABLETS */
+/* MOBILE PHONES */
 #mainPhoto,
 #name,
 #left-side {
   display: none;
+}
+
+#textes {
+  padding: 0rem calc(3rem + 0.5vw);
 }
 
 header,
@@ -22,25 +26,25 @@ header,
   width: 100%;
 }
 
-.nav-list,
-.subtitles {
-  font-size: 2.5rem;
-}
-
-#section-title {
-  font-size: 4rem;
-}
-
-.paragraphes {
-  font-size: 1.8rem;
-}
-
 header {
   height: 5vh;
 }
 
 #logo {
-  width: 600px;
+  width: 280px;
+}
+
+.nav-list,
+.subtitles {
+  font-size: calc(1.5rem + 0.8vw);
+}
+
+#section-title {
+  font-size: calc(2rem + 0.8vw);
+}
+
+.paragraphes {
+  font-size: calc(1rem + 0.8vw);
 }
 
 footer,
@@ -60,16 +64,13 @@ footer,
 #lithoxoouCapture,
 #lithoxoouBio {
   text-align: center;
+  flex: 1 1 0rem;
 }
 
-#socialNetworks,
-#emmanuelDevBio,
-#lithoxoouBio {
+#socialNetworks {
   order: 1;
 }
 
-#copyright,
-#emmanuelDevCapture,
-#lithoxoouCapture {
+#copyright {
   order: 2;
 }
