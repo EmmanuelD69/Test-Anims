@@ -102,7 +102,7 @@ function hobbiesContent() {
   // leftside.style.width = "0%";
   // leftside.style.display = "none";
   // rightside.style.width = "100%";
-  photo.src = "img/DjDodgeman2.png";
+  photo.src = "img/DjDodgeman2.jpg";
   // photo.style.display = "none";
   // video.src = "/video/dj2.mp4";
   // video.style.display = "block";
@@ -143,7 +143,7 @@ function iLikeContent() {
   navLink2.style.color = "#343434";
   navLink3.style.color = "#c26464";
   navLink4.style.color = "#343434";
-  photo.src = "img/history.png";
+  photo.src = "img/history.jpg";
   // video.style.display = "none";
   document.getElementById("section-title").innerHTML = "I LIKE";
   subtitle1.innerHTML = "HISTOIRE";
@@ -183,28 +183,30 @@ function portfolioContent() {
   navLink3.style.color = "#343434";
   navLink4.style.color = "#c26464";
   photo.src = "img/coding.jpg";
-  // video.style.display = "none";
+  // photo.style.display = "none";
+  // video.src = "/videocode.mp4";
+  // video.style.display = "block";
   document.getElementById("section-title").innerHTML = "PORTFOLIO";
   subtitle1.style.display = "block";
   subtitle1.innerHTML = "Mon site web professionnel";
   paragraphe1.style.display = "block";
   paragraphe1.innerHTML =
-    '<section id="emmanuelDev"><a id="emmanuelDevCapture" href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a><p id="emmanuelDevBio">Il a été réalisé en combinant mes connaissances en html, css et JavaScript, tout en y ajoutant des contenus et idées trouvées sur le web.</p></section>';
+    '<section id="emmanuelDev"><div id="emmanuelDevBio"><p>Il a été réalisé en combinant mes connaissances en html, css et JavaScript, tout en y ajoutant des contenus et idées trouvées sur le web.</p></div><div id="emmanuelDevCapture"><a href="https://projet.emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldev.png"></a></div></section>';
   subtitle2.style.display = "block";
   subtitle2.innerHTML = "Mon site Wordpress";
   paragraphe2.style.display = "block";
   paragraphe2.innerHTML =
-    '<section id="emmanuelDevWordpress"><p id="emmanuelDevWordpressBio">Voici mon site Wordpress, réalisé à l\'aide de Divi, un outil permettant la construction de site par ajout de modules. Pas vraiment de programmation ,mais une connaissance de Wordpress nécessaire.</p><a id="emmanuelDevWordpressCapture" href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></section>';
+    '<section id="emmanuelDevWordpress"><div id="emmanuelDevWordpressBio"><p>Voici mon site Wordpress, réalisé à l\'aide de Divi, un outil permettant la construction de site par ajout de modules. Pas vraiment de programmation ,mais une connaissance de Wordpress nécessaire.</p></div><div id="emmanuelDevWordpressCapture"><a href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></div></section>';
   subtitle3.style.display = "block";
   subtitle3.innerHTML = "Site réalisé pour un ébéniste tradition";
   paragraphe3.style.display = "block";
   paragraphe3.innerHTML =
-    '<section id="lithoxoou"><a id="lithoxoouCapture" href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.png"></a><p id="lithoxoouBio">Je suis très heureux d\'avoir pu réaliser ce site vitrine pour un proche vivant en Grèce. Là encore, pas de programmation mais l\'usage des modules de Wordpress pour mettre en place le site.</p></section>';
+    '<section id="lithoxoou"><div id="lithoxoouBio"><p>Je suis très heureux d\'avoir pu réaliser ce site vitrine pour un proche vivant en Grèce. Là encore, pas de programmation mais l\'usage des modules de Wordpress pour mettre en place le site.</p></div><div id="lithoxoouCapture"><a href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.jpg"></a></div></section>';
   subtitle4.style.display = "block";
   subtitle4.innerHTML = "Site pour un Dj / Producer";
   paragraphe4.style.display = "block";
   paragraphe4.innerHTML =
-    '<section id="lecoMusik"><p id="lecoBio">Cette page vitrine a été réalisé pour un ami DJ/Producer, il s\'agit d\'un code simple alliant html / css avec des animations sympa.</p><a id="lecoCapture" href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></section>';
+    '<section id="lecoMusik"><div id="lecoBio"><p>Cette page vitrine a été réalisé pour un ami DJ/Producer, il s\'agit d\'un code simple alliant html / css avec des animations sympa.</p></div><div id="lecoCapture"><a href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></div></section>';
   subtitle5.style.display = "none";
   subtitle5.innerHTML = "";
   paragraphe5.style.display = "none";

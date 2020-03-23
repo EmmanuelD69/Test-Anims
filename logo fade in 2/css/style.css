@@ -115,14 +115,23 @@ html {
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #dfd8d0;
 }
 
+/* this is to remove the scrollbar */
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/******************/
+/*     HEADER     */
+/******************/
 header {
-  font-size: 2rem;
+  font-size: 3rem;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -131,15 +140,174 @@ header {
   animation: appear 8s ease forwards 9s;
 }
 
+#name {
+  flex: 1 1;
+  font-family: "Cabin Sketch";
+  color: #343434;
+  font-size: 5rem;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation {
+  flex: 1 1;
+  /* background-color: darksalmon; */
+}
+
+/* Barre de navigation */
+.nav-list {
+  font-family: "Cabin Sketch";
+  list-style: none;
+  /* background-color: tomato; */
+  opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* liens de navigation */
+.nav-link {
+  text-decoration: none;
+  color: #343434;
+}
+
+.nav-link:hover {
+  color: #0a0a0a;
+  transition: ease 0.5s;
+}
+
+.nav-list-link:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 0.6s;
+}
+
+/******************/
+/*      MAIN      */
+/******************/
 main {
-  font-size: 2rem;
   height: 85vh;
   display: flex;
 }
 
-footer {
+#left-side {
+  position: relative;
+  flex: 1 1;
+  width: 50vw;
+  /* background-color: teal; */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: appear 6s ease forwards 8s;
+  border-right: 1px solid #343434;
+}
+
+#mainPhoto {
+  width: 90%;
+  background-color: #b0d1a7 (134, 134);
+}
+
+/* Dimensionnement vidéo MP4 */
+#mp4 {
+  position: absolute;
+  width: 100%;
+  height: 85vh;
+  display: none;
+}
+
+#site-main {
+  flex: 1 1;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  /* background-color: thistle; */
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+#section-title {
+  font-family: "Martel", serif;
+  font-size: 3.5rem;
+  color: #343434;
+  text-align: center;
+  /* background-color: darkgoldenrod; */
+}
+
+#textes {
+  font-family: "Martel", serif;
+  /* background-color: darkkhaki; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 0rem 4rem;
+}
+
+/* this is to remove the scrollbar */
+#textes::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#lastMix {
+  /* background: cornflowerblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Structure de la partie Portfolio */
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#lecoCapture,
+#emmanuelDevCapture,
+#emmanuelDevWordpressCapture,
+#lithoxoouCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressBio,
+#lithoxoouBio,
+#lecoBio {
+  flex: 1 1 30rem;
+  font-family: "Martel", serif;
+  padding: 5px;
+  text-align: center;
+}
+
+.portfolioPictures {
+  width: 100%;
+}
+
+.subtitles {
+  font-family: "Jacques Francois Shadow", cursive;
+  text-decoration: underline;
+  text-align: center;
   font-size: 2rem;
-  height: 5vh;
+  /* background-color: crimson; */
+}
+
+.paragraphes {
+  margin: 5px 5px 30px 5px;
+  font-size: calc(1rem + 0.5vw);
+}
+
+/******************/
+/*     FOOTER     */
+/******************/
+footer {
+  /* font-size: 2rem; */
+  min-height: 5vh;
   /* background-color: cadetblue; */
   display: flex;
   align-items: center;
@@ -172,64 +340,10 @@ footer {
   width: 50%;
   display: flex;
   justify-content: center;
+  font-size: calc(1rem + 0.3vw);
 }
 
-#mp4 {
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-#left-side {
-  width: 50%;
-  height: 100%;
-  /* background-color: teal; */
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  animation: appear 6s ease forwards 8s;
-  border-right: 1px solid #343434;
-}
-
-#name {
-  width: 50%;
-  font-family: "Cabin Sketch";
-  color: #343434;
-  font-size: 6rem;
-  /* background-color: aquamarine; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolioPictures {
-  width: 90%;
-  height: auto;
-}
-
-#mainPhoto {
-  width: 90%;
-  object-fit: cover;
-  /* border-radius: 50%; */
-}
-
-#site-main {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  /* background-color: thistle; */
-  opacity: 0;
-  animation: appear 8s ease forwards 9s;
-}
-
-#navigation {
-  width: 50%;
-  /* background-color: darksalmon; */
-}
-
-#section-texte {
+/* #section-texte {
   width: 100%;
   height: 85vh;
   margin: auto;
@@ -238,110 +352,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: cadetblue; */
-}
-
-#section-title {
-  font-family: "Martel", serif;
-  font-size: 4.5rem;
-  color: #343434;
-  text-align: center;
-  /* background-color: darkgoldenrod; */
-}
-
-#textes {
-  height: 90%;
-  font-family: "Martel", serif;
-  /* background-color: darkkhaki; */
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-
-/* this is to remove the scrollbars */
-#textes::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-#lastMix {
-  /* background: cornflowerblue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-body::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.subtitles {
-  font-family: "Jacques Francois Shadow", cursive;
-  text-decoration: underline;
-  text-align: center;
-  font-size: 2.5rem;
-  /* background-color: crimson; */
-}
-
-.paragraphes {
-  margin: 15px 20px 30px 15px;
-}
-
-/* Barre de navigation */
-.nav-list {
-  font-family: "Cabin Sketch";
-  font-size: 4.5rem;
-  list-style: none;
-  /* background-color: tomato; */
-  opacity: 1;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-/* liens de navigation */
-.nav-link {
-  text-decoration: none;
-  color: #343434;
-}
-
-.nav-link:hover {
-  color: #0a0a0a;
-  transition: ease 0.5s;
-}
-
-.nav-list-link:hover {
-  transform: scale(1.4);
-  transition: ease-in-out 0.6s;
-}
-
-/* Structure de la partie Portfolio */
-#lecoMusik,
-#emmanuelDev,
-#emmanuelDevWordpress,
-#lithoxoou {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevWordpressCapture,
-#lithoxoouCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressBio,
-#lithoxoouBio {
-  width: 50%;
-  height: auto;
-  font-family: "Martel", serif;
-  margin-right: 5px;
-}
+  background-color: cadetblue;
+} */
 
 /* Pseudo éléments des liens de navigation */
 /* .nav-link::after {
