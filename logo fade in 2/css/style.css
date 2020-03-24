@@ -1,3 +1,186 @@
+@charset "UTF-8";
+/* MOBILE PHONES */
+#mainPhoto,
+#name,
+#left-side {
+  display: none;
+}
+
+#textes {
+  padding: 0rem calc(3rem + 0.5vw);
+}
+
+header,
+#socialNetworks,
+#copyright,
+#navigation,
+#site-main,
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio,
+.nav-list {
+  width: 100%;
+}
+
+header {
+  height: 5vh;
+}
+
+#logo {
+  width: 280px;
+}
+
+.nav-list,
+.subtitles {
+  font-size: calc(1.5rem + 0.8vw);
+}
+
+#section-title {
+  font-size: calc(2rem + 0.8vw);
+}
+
+.paragraphes {
+  font-size: calc(1rem + 0.8vw);
+}
+
+footer,
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0rem;
+          flex: 1 1 0rem;
+}
+
+#socialNetworks {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#copyright {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+/* TABLETS */
+main {
+  padding: 1rem 0rem;
+  margin: 0rem;
+  min-height: 90vh;
+}
+
+#name,
+#mainPhoto,
+#left-side {
+  display: none;
+}
+
+#site-main {
+  min-height: 60vh;
+}
+
+#textes {
+  padding: 0rem calc(4rem + 0.5vw);
+}
+
+header,
+#socialNetworks,
+#copyright,
+#navigation,
+#site-main,
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio,
+.nav-list {
+  width: 100%;
+}
+
+.nav-list,
+.subtitles {
+  font-size: calc(1.5rem + 1vw);
+}
+
+#section-title {
+  font-size: calc(2rem + 1vw);
+}
+
+.paragraphes {
+  font-size: calc(1rem + 1vw);
+}
+
+header {
+  height: 5vh;
+}
+
+#logo {
+  width: 600px;
+}
+
+footer,
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#lecoCapture,
+#lecoBio,
+#emmanuelDevCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressCapture,
+#emmanuelDevWordpressBio,
+#lithoxoouCapture,
+#lithoxoouBio {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0rem;
+          flex: 1 1 0rem;
+}
+
+#socialNetworks {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#copyright {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
 /* Choix des fonts:
 font-family: 'Cabin Sketch', cursive;
 font-family: 'Eczar', serif;
@@ -5,107 +188,139 @@ font-family: 'Brawler', serif;
 font-family: 'Jacques Francois Shadow', cursive;
 font-family: 'Martel', serif;
 */
-
 /* CE CODE EST A SA VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE SASS PROCHAINEMENT */
 /* Logo SVG Animation + Css */
 #logo {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  animation: vanish 4s ease forwards 6s;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: vanish 4s ease forwards 6s;
+          animation: vanish 4s ease forwards 6s;
 }
 
 #logo path:nth-child(1) {
   stroke-dasharray: 1295.451171875px;
   stroke-dashoffset: 1295.451171875px;
-  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+          animation: line-anim 2s ease forwards;
 }
+
 #logo path:nth-child(2) {
   stroke-dasharray: 1816.4046630859375px;
   stroke-dashoffset: 1816.4046630859375px;
-  animation: line-anim 2s ease forwards 0.4s;
+  -webkit-animation: line-anim 2s ease forwards 0.4s;
+          animation: line-anim 2s ease forwards 0.4s;
 }
+
 #logo path:nth-child(3) {
   stroke-dasharray: 1816.406005859375px;
   stroke-dashoffset: 1816.406005859375px;
-  animation: line-anim 2s ease forwards 0.8s;
+  -webkit-animation: line-anim 2s ease forwards 0.8s;
+          animation: line-anim 2s ease forwards 0.8s;
 }
+
 #logo path:nth-child(4) {
   stroke-dasharray: 1115.4266357421875px;
   stroke-dashoffset: 1115.4266357421875px;
-  animation: line-anim 2s ease forwards 1.2s;
+  -webkit-animation: line-anim 2s ease forwards 1.2s;
+          animation: line-anim 2s ease forwards 1.2s;
 }
+
 #logo path:nth-child(5) {
   stroke-dasharray: 1150.325927734375px;
   stroke-dashoffset: 1150.325927734375px;
-  animation: line-anim 2s ease forwards 1.6s;
+  -webkit-animation: line-anim 2s ease forwards 1.6s;
+          animation: line-anim 2s ease forwards 1.6s;
 }
+
 #logo path:nth-child(6) {
   stroke-dasharray: 1155.228271484375px;
   stroke-dashoffset: 1155.228271484375px;
-  animation: line-anim 2s ease forwards 2s;
+  -webkit-animation: line-anim 2s ease forwards 2s;
+          animation: line-anim 2s ease forwards 2s;
 }
+
 #logo path:nth-child(7) {
   stroke-dasharray: 1174.874267578125px;
   stroke-dashoffset: 1174.874267578125px;
-  animation: line-anim 2s ease forwards 2.4s;
+  -webkit-animation: line-anim 2s ease forwards 2.4s;
+          animation: line-anim 2s ease forwards 2.4s;
 }
+
 #logo path:nth-child(8) {
   stroke-dasharray: 753.6519775390625px;
   stroke-dashoffset: 753.6519775390625px;
-  animation: line-anim 2s ease forwards 2.8s;
+  -webkit-animation: line-anim 2s ease forwards 2.8s;
+          animation: line-anim 2s ease forwards 2.8s;
 }
+
 #logo path:nth-child(9) {
   stroke-dasharray: 1633.7017822265625px;
   stroke-dashoffset: 1633.7017822265625px;
-  animation: line-anim 2s ease forwards 3.2s;
+  -webkit-animation: line-anim 2s ease forwards 3.2s;
+          animation: line-anim 2s ease forwards 3.2s;
 }
+
 #logo path:nth-child(10) {
   stroke-dasharray: 1496.080810546875px;
   stroke-dashoffset: 1496.080810546875px;
-  animation: line-anim 2s ease forwards 3.6s;
+  -webkit-animation: line-anim 2s ease forwards 3.6s;
+          animation: line-anim 2s ease forwards 3.6s;
 }
+
 #logo path:nth-child(11) {
   stroke-dasharray: 1494.249267578125px;
   stroke-dashoffset: 1494.249267578125px;
-  animation: line-anim 2s ease forwards 4s;
+  -webkit-animation: line-anim 2s ease forwards 4s;
+          animation: line-anim 2s ease forwards 4s;
 }
+
 #logo path:nth-child(12) {
   stroke-dasharray: 1520.1102294921875px;
   stroke-dashoffset: 1520.1102294921875px;
-  animation: line-anim 2s ease forwards 4.4s;
+  -webkit-animation: line-anim 2s ease forwards 4.4s;
+          animation: line-anim 2s ease forwards 4.4s;
 }
+
 #logo path:nth-child(13) {
   stroke-dasharray: 1496.082275390625px;
   stroke-dashoffset: 1496.082275390625px;
-  animation: line-anim 2s ease forwards 4.8s;
+  -webkit-animation: line-anim 2s ease forwards 4.8s;
+          animation: line-anim 2s ease forwards 4.8s;
 }
+
 #logo path:nth-child(14) {
   stroke-dasharray: 1596.119873046875px;
   stroke-dashoffset: 1596.119873046875px;
-  animation: line-anim 2s ease forwards 5.2s;
+  -webkit-animation: line-anim 2s ease forwards 5.2s;
+          animation: line-anim 2s ease forwards 5.2s;
 }
+
 #logo path:nth-child(15) {
   stroke-dasharray: 1295.4539794921875px;
   stroke-dashoffset: 1295.4539794921875px;
-  animation: line-anim 2s ease forwards 5.6s;
+  -webkit-animation: line-anim 2s ease forwards 5.6s;
+          animation: line-anim 2s ease forwards 5.6s;
 }
+
 #logo path:nth-child(16) {
   stroke-dasharray: 1295.451171875px;
   stroke-dashoffset: 1295.451171875px;
-  animation: line-anim 2s ease forwards 6s;
+  -webkit-animation: line-anim 2s ease forwards 6s;
+          animation: line-anim 2s ease forwards 6s;
 }
 
 /*******************************/
 /*       CSS PRINCIPAL         */
 /*******************************/
-
 /* reset des espaces internes et externes de tous les éléments et confinement ;) des contenus à leurs élements */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* pour plus de facilités de calculs des fonts et utilisation du rem au lieu dex px et em. 10px = 1rem */
@@ -116,8 +331,13 @@ html {
 body {
   width: 100%;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #dfd8d0;
 }
 
@@ -133,26 +353,43 @@ body::-webkit-scrollbar {
 header {
   font-size: 3rem;
   height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0;
-  animation: appear 8s ease forwards 9s;
+  -webkit-animation: appear 8s ease forwards 9s;
+          animation: appear 8s ease forwards 9s;
 }
 
 #name {
-  flex: 1 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
   font-family: "Cabin Sketch";
   color: #343434;
   font-size: 5rem;
   /* background-color: aquamarine; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #navigation {
-  flex: 1 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
   /* background-color: darksalmon; */
 }
 
@@ -162,9 +399,15 @@ header {
   list-style: none;
   /* background-color: tomato; */
   opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* liens de navigation */
@@ -175,11 +418,14 @@ header {
 
 .nav-link:hover {
   color: #0a0a0a;
+  -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
 
 .nav-list-link:hover {
-  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: ease-in-out 0.6s;
   transition: ease-in-out 0.6s;
 }
 
@@ -188,6 +434,8 @@ header {
 /******************/
 main {
   height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -195,21 +443,32 @@ main {
 /*      FENETRE DE GAUCHE      */
 /*******************************/
 #left-side {
-  flex: 1 1 51.25rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 51.25rem;
+          flex: 1 1 51.25rem;
   width: 50vw;
   /* background-color: teal; */
   opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  animation: appear 6s ease forwards 8s;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: appear 6s ease forwards 8s;
+          animation: appear 6s ease forwards 8s;
   border-right: 1px solid #343434;
 }
 
 #mainPhoto {
   width: 90%;
-  background-color: #b0d1a7 (134, 134);
+  background-color: #b0d1a7 134, 134;
 }
 
 /* Dimensionnement vidéo MP4 (non actif pour l'instant)*/
@@ -219,18 +478,25 @@ main {
   height: 85vh;
   display: none;
 } */
-
 /*******************************/
 /*      FENETRE DE DROITE      */
 /*******************************/
 #site-main {
-  flex: 1 1 51.25rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 51.25rem;
+          flex: 1 1 51.25rem;
   width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   /* background-color: thistle; */
   opacity: 0;
-  animation: appear 8s ease forwards 9s;
+  -webkit-animation: appear 8s ease forwards 9s;
+          animation: appear 8s ease forwards 9s;
 }
 
 #section-title {
@@ -244,8 +510,13 @@ main {
 #textes {
   font-family: "Martel", serif;
   /* background-color: darkkhaki; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -276,10 +547,17 @@ main {
 #emmanuelDev,
 #emmanuelDevWordpress,
 #lithoxoou {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #lecoCapture,
@@ -290,7 +568,9 @@ main {
 #emmanuelDevWordpressBio,
 #lithoxoouBio,
 #lecoBio {
-  flex: 1 1 30rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
   font-family: "Martel", serif;
   padding: 5px;
   text-align: center;
@@ -298,9 +578,15 @@ main {
 
 #lastMix {
   /* background: cornflowerblue; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .portfolioPictures {
@@ -313,10 +599,15 @@ main {
 footer {
   min-height: 5vh;
   /* background-color: cadetblue; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0;
-  animation: appear 8s ease forwards 9s;
+  -webkit-animation: appear 8s ease forwards 9s;
+          animation: appear 8s ease forwards 9s;
 }
 
 #socialNetworks {
@@ -328,9 +619,15 @@ footer {
 #socialNetworks > ul {
   /* background-color: chartreuse; */
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
 }
 
@@ -343,18 +640,35 @@ footer {
 #copyright {
   /* background-color: chocolate; */
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: calc(1rem + 0.3vw);
 }
 
 /******************/
 /* Animations CSS */
 /******************/
-
+@-webkit-keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes vanish {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 
@@ -367,6 +681,15 @@ footer {
   }
 }
 
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -375,3 +698,4 @@ footer {
     opacity: 1;
   }
 }
+/*# sourceMappingURL=style.css.map */
