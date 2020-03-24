@@ -6,6 +6,20 @@ font-family: 'Brawler', serif;
 font-family: 'Jacques Francois Shadow', cursive;
 font-family: 'Martel', serif;
 */
+/* CE CODE EST A SA VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE SASS PROCHAINEMENT */
+/* reset des espaces internes et externes de tous les éléments et confinement ;) des contenus à leurs élements */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* pour plus de facilités de calculs des fonts et utilisation du rem au lieu dex px et em. 10px = 1rem */
+html {
+  font-size: 62.5%;
+}
+
 /* Logo SVG Animation + Css */
 #logo {
   position: absolute;
@@ -177,6 +191,25 @@ font-family: 'Martel', serif;
   to {
     opacity: 1;
   }
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #dfd8d0;
+}
+
+/* this is to remove the scrollbar */
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 /******************/
@@ -481,42 +514,7 @@ footer {
   font-size: calc(1rem + 0.3vw);
 }
 
-/* CE CODE EST A SA VERSION 1.0, JE VAIS LE RETRAVAILLER EN MODE SASS PROCHAINEMENT */
-/*******************************/
-/*       CSS PRINCIPAL         */
-/*******************************/
-/* reset des espaces internes et externes de tous les éléments et confinement ;) des contenus à leurs élements */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* pour plus de facilités de calculs des fonts et utilisation du rem au lieu dex px et em. 10px = 1rem */
-html {
-  font-size: 62.5%;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #dfd8d0;
-}
-
-/* this is to remove the scrollbar */
-body::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
+/* ATTENTION LES MEDIA QUERIES DOIVENT ETRE EN FIN SINON RISQUE DE CREER CONFLITS AVEC LE RESPONSIVE*/
 /* TABLETS */
 @media (max-width: 1024px) {
   main {

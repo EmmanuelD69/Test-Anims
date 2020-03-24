@@ -1,0 +1,11 @@
+/* reset des espaces internes et externes de tous les éléments et confinement ;) des contenus à leurs élements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pour plus de facilités de calculs des fonts et utilisation du rem au lieu dex px et em. 10px = 1rem */
+html {
+  font-size: 62.5%;
+}

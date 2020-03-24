@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #dfd8d0;
+}
+
+/* this is to remove the scrollbar */
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
