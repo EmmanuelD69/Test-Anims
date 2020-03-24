@@ -1,87 +1,89 @@
 /* TABLETS */
 
-main {
-  padding: 1rem 0rem;
-  margin: 0rem;
-  min-height: 90vh;
-}
+@media (max-width: 1024px) {
+  main {
+    padding: 1rem 0rem;
+    margin: 0rem;
+    min-height: 90vh;
+  }
 
-#name,
-#mainPhoto,
-#left-side {
-  display: none;
-}
+  #name,
+  #mainPhoto,
+  #left-side {
+    display: none;
+  }
 
-#site-main {
-  min-height: 60vh;
-}
+  #site-main {
+    min-height: 60vh;
+  }
 
-#textes {
-  padding: 0rem calc(4rem + 0.5vw);
-}
+  #textes {
+    padding: 0rem calc(4rem + 0.5vw);
+  }
 
-header,
-#socialNetworks,
-#copyright,
-#navigation,
-#site-main,
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio,
-.nav-list {
-  width: 100%;
-}
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
+  .nav-list {
+    width: 100%;
+  }
 
-.nav-list,
-.subtitles {
-  font-size: calc(1.5rem + 1vw);
-}
+  .nav-list,
+  .subtitles {
+    font-size: calc(1.5rem + 1vw);
+  }
 
-#section-title {
-  font-size: calc(2rem + 1vw);
-}
+  #section-title {
+    font-size: calc(2rem + 1vw);
+  }
 
-.paragraphes {
-  font-size: calc(1rem + 1vw);
-}
+  .paragraphes {
+    font-size: calc(1rem + 1vw);
+  }
 
-header {
-  height: 5vh;
-}
+  header {
+    height: 5vh;
+  }
 
-#logo {
-  width: 600px;
-}
+  #logo {
+    width: 600px;
+  }
 
-footer,
-#lecoMusik,
-#emmanuelDev,
-#emmanuelDevWordpress,
-#lithoxoou {
-  flex-direction: column;
-}
+  footer,
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    flex-direction: column;
+  }
 
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio {
-  text-align: center;
-  flex: 1 1 0rem;
-}
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    text-align: center;
+    flex: 1 1 0rem;
+  }
 
-#socialNetworks {
-  order: 1;
-}
+  #socialNetworks {
+    order: 1;
+  }
 
-#copyright {
-  order: 2;
+  #copyright {
+    order: 2;
+  }
 }

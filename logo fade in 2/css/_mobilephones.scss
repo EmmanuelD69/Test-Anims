@@ -1,76 +1,78 @@
 /* MOBILE PHONES */
-#mainPhoto,
-#name,
-#left-side {
-  display: none;
-}
+@media (max-width: 500px) {
+  #mainPhoto,
+  #name,
+  #left-side {
+    display: none;
+  }
 
-#textes {
-  padding: 0rem calc(3rem + 0.5vw);
-}
+  #textes {
+    padding: 0rem calc(3rem + 0.5vw);
+  }
 
-header,
-#socialNetworks,
-#copyright,
-#navigation,
-#site-main,
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio,
-.nav-list {
-  width: 100%;
-}
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
+  .nav-list {
+    width: 100%;
+  }
 
-header {
-  height: 5vh;
-}
+  header {
+    height: 5vh;
+  }
 
-#logo {
-  width: 280px;
-}
+  #logo {
+    width: 280px;
+  }
 
-.nav-list,
-.subtitles {
-  font-size: calc(1.5rem + 0.8vw);
-}
+  .nav-list,
+  .subtitles {
+    font-size: calc(1.5rem + 0.8vw);
+  }
 
-#section-title {
-  font-size: calc(2rem + 0.8vw);
-}
+  #section-title {
+    font-size: calc(2rem + 0.8vw);
+  }
 
-.paragraphes {
-  font-size: calc(1rem + 0.8vw);
-}
+  .paragraphes {
+    font-size: calc(1rem + 0.8vw);
+  }
 
-footer,
-#lecoMusik,
-#emmanuelDev,
-#emmanuelDevWordpress,
-#lithoxoou {
-  flex-direction: column;
-}
+  footer,
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    flex-direction: column;
+  }
 
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio {
-  text-align: center;
-  flex: 1 1 0rem;
-}
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    text-align: center;
+    flex: 1 1 0rem;
+  }
 
-#socialNetworks {
-  order: 1;
-}
+  #socialNetworks {
+    order: 1;
+  }
 
-#copyright {
-  order: 2;
+  #copyright {
+    order: 2;
+  }
 }

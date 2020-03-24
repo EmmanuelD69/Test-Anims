@@ -1,186 +1,4 @@
 @charset "UTF-8";
-/* MOBILE PHONES */
-#mainPhoto,
-#name,
-#left-side {
-  display: none;
-}
-
-#textes {
-  padding: 0rem calc(3rem + 0.5vw);
-}
-
-header,
-#socialNetworks,
-#copyright,
-#navigation,
-#site-main,
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio,
-.nav-list {
-  width: 100%;
-}
-
-header {
-  height: 5vh;
-}
-
-#logo {
-  width: 280px;
-}
-
-.nav-list,
-.subtitles {
-  font-size: calc(1.5rem + 0.8vw);
-}
-
-#section-title {
-  font-size: calc(2rem + 0.8vw);
-}
-
-.paragraphes {
-  font-size: calc(1rem + 0.8vw);
-}
-
-footer,
-#lecoMusik,
-#emmanuelDev,
-#emmanuelDevWordpress,
-#lithoxoou {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio {
-  text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 0rem;
-          flex: 1 1 0rem;
-}
-
-#socialNetworks {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-#copyright {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-/* TABLETS */
-main {
-  padding: 1rem 0rem;
-  margin: 0rem;
-  min-height: 90vh;
-}
-
-#name,
-#mainPhoto,
-#left-side {
-  display: none;
-}
-
-#site-main {
-  min-height: 60vh;
-}
-
-#textes {
-  padding: 0rem calc(4rem + 0.5vw);
-}
-
-header,
-#socialNetworks,
-#copyright,
-#navigation,
-#site-main,
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio,
-.nav-list {
-  width: 100%;
-}
-
-.nav-list,
-.subtitles {
-  font-size: calc(1.5rem + 1vw);
-}
-
-#section-title {
-  font-size: calc(2rem + 1vw);
-}
-
-.paragraphes {
-  font-size: calc(1rem + 1vw);
-}
-
-header {
-  height: 5vh;
-}
-
-#logo {
-  width: 600px;
-}
-
-footer,
-#lecoMusik,
-#emmanuelDev,
-#emmanuelDevWordpress,
-#lithoxoou {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#lecoCapture,
-#lecoBio,
-#emmanuelDevCapture,
-#emmanuelDevBio,
-#emmanuelDevWordpressCapture,
-#emmanuelDevWordpressBio,
-#lithoxoouCapture,
-#lithoxoouBio {
-  text-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 0rem;
-          flex: 1 1 0rem;
-}
-
-#socialNetworks {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-#copyright {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
 /* Choix des fonts:
 font-family: 'Cabin Sketch', cursive;
 font-family: 'Eczar', serif;
@@ -696,6 +514,168 @@ footer {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* TABLETS */
+@media (max-width: 1024px) {
+  main {
+    padding: 1rem 0rem;
+    margin: 0rem;
+    min-height: 90vh;
+  }
+  #name,
+  #mainPhoto,
+  #left-side {
+    display: none;
+  }
+  #site-main {
+    min-height: 60vh;
+  }
+  #textes {
+    padding: 0rem calc(4rem + 0.5vw);
+  }
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list,
+  .subtitles {
+    font-size: calc(1.5rem + 1vw);
+  }
+  #section-title {
+    font-size: calc(2rem + 1vw);
+  }
+  .paragraphes {
+    font-size: calc(1rem + 1vw);
+  }
+  header {
+    height: 5vh;
+  }
+  #logo {
+    width: 600px;
+  }
+  footer,
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    text-align: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0rem;
+            flex: 1 1 0rem;
+  }
+  #socialNetworks {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #copyright {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+/* MOBILE PHONES */
+@media (max-width: 500px) {
+  #mainPhoto,
+  #name,
+  #left-side {
+    display: none;
+  }
+  #textes {
+    padding: 0rem calc(3rem + 0.5vw);
+  }
+  header,
+  #socialNetworks,
+  #copyright,
+  #navigation,
+  #site-main,
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio,
+  .nav-list {
+    width: 100%;
+  }
+  header {
+    height: 5vh;
+  }
+  #logo {
+    width: 280px;
+  }
+  .nav-list,
+  .subtitles {
+    font-size: calc(1.5rem + 0.8vw);
+  }
+  #section-title {
+    font-size: calc(2rem + 0.8vw);
+  }
+  .paragraphes {
+    font-size: calc(1rem + 0.8vw);
+  }
+  footer,
+  #lecoMusik,
+  #emmanuelDev,
+  #emmanuelDevWordpress,
+  #lithoxoou {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #lecoCapture,
+  #lecoBio,
+  #emmanuelDevCapture,
+  #emmanuelDevBio,
+  #emmanuelDevWordpressCapture,
+  #emmanuelDevWordpressBio,
+  #lithoxoouCapture,
+  #lithoxoouBio {
+    text-align: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0rem;
+            flex: 1 1 0rem;
+  }
+  #socialNetworks {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #copyright {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 /*# sourceMappingURL=style.css.map */
