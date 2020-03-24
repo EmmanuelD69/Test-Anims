@@ -1,0 +1,123 @@
+/******************/
+/*      MAIN      */
+/******************/
+main {
+  height: 85vh;
+  display: flex;
+}
+
+/*******************************/
+/*      FENETRE DE GAUCHE      */
+/*******************************/
+#left-side {
+  flex: 1 1 51.25rem;
+  width: 50vw;
+  /* background-color: teal; */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: appear 6s ease forwards 8s;
+  border-right: 1px solid #343434;
+}
+
+#mainPhoto {
+  width: 90%;
+  background-color: #b0d1a7 (134, 134);
+}
+
+/* Dimensionnement vidéo MP4 (non actif pour l'instant)*/
+/* #mp4 {
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    display: none;
+  } */
+
+/*******************************/
+/*      FENETRE DE DROITE      */
+/*******************************/
+#site-main {
+  flex: 1 1 51.25rem;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  /* background-color: thistle; */
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+#section-title {
+  font-family: "Martel", serif;
+  font-size: 3.5rem;
+  color: #343434;
+  text-align: center;
+  /* background-color: darkgoldenrod; */
+}
+
+#textes {
+  font-family: "Martel", serif;
+  /* background-color: darkkhaki; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 0rem 4rem;
+}
+
+/* this is to remove the scrollbar */
+#textes::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.subtitles {
+  font-family: "Jacques Francois Shadow", cursive;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2rem;
+  /* background-color: crimson; */
+}
+
+.paragraphes {
+  margin: 5px 5px 30px 5px;
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* Structure de la partie Portfolio */
+#lecoMusik,
+#emmanuelDev,
+#emmanuelDevWordpress,
+#lithoxoou {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#lecoCapture,
+#emmanuelDevCapture,
+#emmanuelDevWordpressCapture,
+#lithoxoouCapture,
+#emmanuelDevBio,
+#emmanuelDevWordpressBio,
+#lithoxoouBio,
+#lecoBio {
+  flex: 1 1 30rem;
+  font-family: "Martel", serif;
+  padding: 5px;
+  text-align: center;
+}
+
+#lastMix {
+  /* background: cornflowerblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioPictures {
+  width: 100%;
+}

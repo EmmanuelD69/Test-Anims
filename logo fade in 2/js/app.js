@@ -12,6 +12,7 @@ for (let i = 0; i < logo.length; i++) {
 console.log(
   "Bonjour et bienvenue sur mon site perso. J'espère que mon code vous intéressera, il est en évolution constante car actuellement je n'ai pas encore refactorisé celui-çi. J'ai fais en sorte que le site soit fonctionnel et responsive. Je suis donc à ma version 1.0 et tout reste à développer. Si vous souhaitez me contacter, n'hésitez pas, je suis en recherche active d'un poste de développeur web. Merci et bonne lecture."
 );
+console.log("mise à jour 24/03/20: ajout SaSS");
 
 /* Création d'une variable pour scroll up le texte lorsqu'on passe d'un lien à l'autre */
 var scrollTop = {

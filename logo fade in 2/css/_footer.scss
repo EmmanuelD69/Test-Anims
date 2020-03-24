@@ -1,0 +1,40 @@
+/******************/
+/*     FOOTER     */
+/******************/
+footer {
+  min-height: 5vh;
+  /* background-color: cadetblue; */
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+#socialNetworks {
+  /* background-color: rgb(126, 37, 37); */
+  width: 50%;
+  padding: 0.5rem 0rem;
+}
+
+#socialNetworks > ul {
+  /* background-color: chartreuse; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.socialIcons {
+  width: 50px;
+  height: auto;
+  text-align: center;
+}
+
+#copyright {
+  /* background-color: chocolate; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: calc(1rem + 0.3vw);
+}

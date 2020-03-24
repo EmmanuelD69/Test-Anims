@@ -1,0 +1,55 @@
+/******************/
+/*     HEADER     */
+/******************/
+header {
+  font-size: 3rem;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: appear 8s ease forwards 9s;
+}
+
+#name {
+  flex: 1 1;
+  font-family: "Cabin Sketch";
+  color: #343434;
+  font-size: 5rem;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation {
+  flex: 1 1;
+  /* background-color: darksalmon; */
+}
+
+/* Barre de navigation */
+.nav-list {
+  font-family: "Cabin Sketch";
+  list-style: none;
+  /* background-color: tomato; */
+  opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* liens de navigation */
+.nav-link {
+  text-decoration: none;
+  color: #343434;
+}
+
+.nav-link:hover {
+  color: #0a0a0a;
+  transition: ease 0.5s;
+}
+
+.nav-list-link:hover {
+  transform: scale(1.4);
+  transition: ease-in-out 0.6s;
+}
