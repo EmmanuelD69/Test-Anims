@@ -199,19 +199,20 @@ function portfolioContent() {
   paragraphe2.innerHTML =
     '<section id="emmanuelDevWordpress"><div id="emmanuelDevWordpressBio"><p>Voici mon site Wordpress, réalisé à l\'aide de Divi, un outil permettant la construction de site par ajout de modules. Pas vraiment de programmation ,mais une connaissance de Wordpress nécessaire.</p></div><div id="emmanuelDevWordpressCapture"><a href="https://emmanueldev.com/" target="_blank"><img class="portfolioPictures" src="img/emmanueldevWordpress.png"></a></div></section>';
   subtitle3.style.display = "block";
-  subtitle3.innerHTML = "Site réalisé pour un ébéniste tradition";
+  subtitle3.innerHTML = "Mon site perso Dj";
   paragraphe3.style.display = "block";
   paragraphe3.innerHTML =
-    '<section id="lithoxoou"><div id="lithoxoouBio"><p>Je suis très heureux d\'avoir pu réaliser ce site vitrine pour un proche vivant en Grèce. Là encore, pas de programmation mais l\'usage des modules de Wordpress pour mettre en place le site.</p></div><div id="lithoxoouCapture"><a href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.jpg"></a></div></section>';
+    '<section id="dodgeman"><div id="dodgemanBio"><p>Ce site est ma vitrine personelle en tant qu\'animateur disc jockey. C\'est l\'une de mes passions et j\'ai pris énormément de plaisir à le mettre en place de A à Z en html et Css dans sa version 1.0 .</p></div><div id="dodgemanCapture"><a href="https://www.djdodgeman.com/" target="_blank"><img class="portfolioPictures" src="img/dodgeman.jpg"></a></div></section>';
   subtitle4.style.display = "block";
-  subtitle4.innerHTML = "Site pour un Dj / Producer";
+  subtitle4.innerHTML = "Site réalisé pour un ébéniste tradition";
   paragraphe4.style.display = "block";
   paragraphe4.innerHTML =
+    '<section id="lithoxoou"><div id="lithoxoouBio"><p>Je suis très heureux d\'avoir pu réaliser ce site vitrine pour un proche vivant en Grèce. Là encore, pas de programmation mais l\'usage des modules de Wordpress pour mettre en place le site.</p></div><div id="lithoxoouCapture"><a href="https://lithoxoou.wordpress.com/" target="_blank"><img class="portfolioPictures" src="img/lithoxoouT.jpg"></a></div></section>';
+  subtitle5.style.display = "block";
+  subtitle5.innerHTML = "Page web pour un Dj / Producer";
+  paragraphe5.style.display = "block";
+  paragraphe5.innerHTML =
     '<section id="lecoMusik"><div id="lecoBio"><p>Cette page vitrine a été réalisé pour un ami DJ/Producer, il s\'agit d\'un code simple alliant html / css avec des animations sympa.</p></div><div id="lecoCapture"><a href="http://www.lecomusik.com/" target="_blank"><img class="portfolioPictures" src="img/leco.png"></a></div></section>';
-  subtitle5.style.display = "none";
-  subtitle5.innerHTML = "";
-  paragraphe5.style.display = "none";
-  paragraphe5.innerHTML = "";
   subtitle6.style.display = "none";
   subtitle6.innerHTML = "";
   paragraphe6.style.display = "none";
